@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this codebase or playbook in your research, courses, or enterprise training, please cite it as below."
+type: book
+title: "The Ethical Hacker's Playbook: AI on Our Side"
+authors:
+  - family-names: Mallepally
+    given-names: Harinath
+year: 2026
+publisher:
+  name: "Evergreen Hub Labs"
+url: "https://github.com/hmallepally/ethical-hackers-playbook"
+repository-code: "https://github.com/hmallepally/ethical-hackers-playbook"
+keywords:
+  - ethical-hacking
+  - ai-security
+  - penetration-testing
+  - llm-security
+  - owasp
+  - red-team
+  - blue-team
+  - cybersecurity
+license: MIT
