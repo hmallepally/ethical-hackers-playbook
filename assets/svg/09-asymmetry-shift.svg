@@ -1,73 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 312" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" width="100%" height="100%">
   <!-- Pure White Background -->
-  <rect width="540" height="312" fill="#ffffff"/>
-  <rect width="537.6" height="309" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
+  <rect width="540" height="380" fill="#ffffff"/>
+  <rect width="536" height="376" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
 
   <!-- Title Header -->
-  <text x="270" y="22.8" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">THE ASYMMETRY SHIFT: BEFORE VS. WITH DEFENSIVE AI</text>
-  <text x="270" y="36" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" text-anchor="middle">Leveling the Battlefield: How Machine Intelligence Restores Defensive Parity</text>
+  <text x="270" y="32" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="800" text-anchor="middle">THE ASYMMETRY SHIFT: BEFORE VS. WITH DEFENSIVE AI</text>
+  <text x="270" y="52" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">How Machine Intelligence Restores Defensive Parity</text>
 
-  <!-- Left Card: BEFORE AI -->
-  <g transform="translate(27, 51)">
-    <rect width="228" height="168" fill="#ffffff" stroke="#dc2626" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 223.2 0 Q 228 0 228 4.8 L 228 21.6 L 0 21.6 Z" fill="#fee2e2"/>
-    <text x="114" y="13.8" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">BEFORE AI: ATTACKER DOMINANCE</text>
+  <!-- Left Card -->
+  <g transform="translate(15, 75)">
+    <rect width="250" height="280" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="6"/>
+    <rect width="250" height="36" fill="#ef4444" rx="6" stroke="none" />
+    <rect width="250" height="10" y="26" fill="#ef4444" stroke="none" />
+    <text x="125" y="23" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="800" text-anchor="middle">BEFORE AI: ATTACKER DOMINANCE</text>
+    
+    <!-- Table Headers -->
+    <text x="15" y="60" fill="#b91c1c" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800">ATTACKER</text>
+    <text x="235" y="60" fill="#b91c1c" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" text-anchor="end">DEFENDER</text>
+    <line x1="15" y1="68" x2="235" y2="68" stroke="#fca5a5" stroke-width="1"/>
 
-    <!-- Comparison Table Inside -->
-    <g transform="translate(10.8, 33)" font-family="sans-serif" font-size="14">
-      <text x="0" y="9" fill="#dc2626" font-weight="800">ATTACKER (Offense)</text>
-      <text x="108" y="9" fill="#64748b" font-weight="800">DEFENDER (Manual)</text>
-      <line x1="0" y1="14.4" x2="206.4" y2="14.4" stroke="#e2e8f0" stroke-width="1.5"/>
+    <!-- Row 1 -->
+    <text x="15" y="85" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Finds 1 Vuln</text>
+    <text x="235" y="85" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Must Patch All</text>
+    <line x1="15" y1="93" x2="235" y2="93" stroke="#fecaca" stroke-width="1"/>
 
-      <text x="0" y="26.4" fill="#334155">• Finds 1 vulnerability</text>
-      <text x="108" y="26.4" fill="#64748b">• Must patch ALL vulnerabilities</text>
+    <!-- Row 2 -->
+    <text x="15" y="110" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Automates Exploits</text>
+    <text x="235" y="110" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Manual Investigate</text>
+    <line x1="15" y1="118" x2="235" y2="118" stroke="#fecaca" stroke-width="1"/>
 
-      <text x="0" y="42" fill="#334155">• Automates exploits</text>
-      <text x="108" y="42" fill="#64748b">• Manually investigates alerts</text>
+    <!-- Row 3 -->
+    <text x="15" y="135" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">24/7 Bots</text>
+    <text x="235" y="135" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Human Shift Gaps</text>
+    <line x1="15" y1="143" x2="235" y2="143" stroke="#fecaca" stroke-width="1"/>
 
-      <text x="0" y="57.6" fill="#334155">• Operates 24/7 script bot</text>
-      <text x="108" y="57.6" fill="#64748b">• Human shift coverage gaps</text>
+    <!-- Row 4 -->
+    <text x="15" y="160" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Zero-Cost Scaling</text>
+    <text x="235" y="160" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Talent Constrained</text>
+    <line x1="15" y1="168" x2="235" y2="168" stroke="#fecaca" stroke-width="1"/>
 
-      <text x="0" y="73.2" fill="#334155">• Scales near-zero cost</text>
-      <text x="108" y="73.2" fill="#64748b">• Constrained by talent pool</text>
-
-      <text x="0" y="88.8" fill="#334155">• Machine-speed execution</text>
-      <text x="108" y="88.8" fill="#64748b">• Human-bound delay (hours)</text>
-    </g>
-
-    <rect x="9.6" y="138" width="208.8" height="15.6" fill="#fef2f2" stroke="#fca5a5" rx="2.4"/>
-    <text x="114" y="148.2" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">OUTCOME: SEVERE ADVERSARIAL ADVANTAGE</text>
+    <!-- Row 5 -->
+    <text x="15" y="185" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Machine-Speed</text>
+    <text x="235" y="185" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Hours Delay</text>
+    
+    <rect x="0" y="244" width="250" height="36" fill="#fee2e2" rx="0" ry="0"/>
+    <text x="125" y="266" fill="#b91c1c" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" text-anchor="middle">SEVERE ADVERSARIAL ADVANTAGE</text>
   </g>
 
-  <!-- Right Card: WITH DEFENSIVE AI -->
-  <g transform="translate(285, 51)">
-    <rect width="228" height="168" fill="#ffffff" stroke="#059669" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 223.2 0 Q 228 0 228 4.8 L 228 21.6 L 0 21.6 Z" fill="#dcfce7"/>
-    <text x="114" y="13.8" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">WITH DEFENSIVE AI: MACHINE PARITY</text>
+  <!-- Right Card -->
+  <g transform="translate(275, 75)">
+    <rect width="250" height="280" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" rx="6"/>
+    <rect width="250" height="36" fill="#16a34a" rx="6" stroke="none" />
+    <rect width="250" height="10" y="26" fill="#16a34a" stroke="none" />
+    <text x="125" y="23" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="800" text-anchor="middle">WITH AI: MACHINE PARITY</text>
+    
+    <!-- Table Headers -->
+    <text x="15" y="60" fill="#15803d" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800">ATTACKER (AI)</text>
+    <text x="235" y="60" fill="#15803d" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" text-anchor="end">DEFENDER (AI)</text>
+    <line x1="15" y1="68" x2="235" y2="68" stroke="#86efac" stroke-width="1"/>
 
-    <!-- Comparison Table Inside -->
-    <g transform="translate(10.8, 33)" font-family="sans-serif" font-size="14">
-      <text x="0" y="9" fill="#dc2626" font-weight="800">ATTACKER (AI-Enabled)</text>
-      <text x="108" y="9" fill="#059669" font-weight="800">DEFENDER (AI-Native)</text>
-      <line x1="0" y1="14.4" x2="206.4" y2="14.4" stroke="#e2e8f0" stroke-width="1.5"/>
+    <!-- Row 1 -->
+    <text x="15" y="85" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Generates Probes</text>
+    <text x="235" y="85" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Predicts &amp; Blocks</text>
+    <line x1="15" y1="93" x2="235" y2="93" stroke="#bbf7d0" stroke-width="1"/>
 
-      <text x="0" y="26.4" fill="#334155">• AI generates novel probes</text>
-      <text x="108" y="26.4" fill="#047857" font-weight="600">• AI predicts &amp; discovers first</text>
+    <!-- Row 2 -->
+    <text x="15" y="110" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Polymorphic</text>
+    <text x="235" y="110" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Behavioral UEBA</text>
+    <line x1="15" y1="118" x2="235" y2="118" stroke="#bbf7d0" stroke-width="1"/>
 
-      <text x="0" y="42" fill="#334155">• Polymorphic evasion</text>
-      <text x="108" y="42" fill="#047857" font-weight="600">• Real-time behavioral UEBA</text>
+    <!-- Row 3 -->
+    <text x="15" y="135" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Hyper Phishing</text>
+    <text x="235" y="135" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Semantic Filter</text>
+    <line x1="15" y1="143" x2="235" y2="143" stroke="#bbf7d0" stroke-width="1"/>
 
-      <text x="0" y="57.6" fill="#334155">• Hyper-scale phishing</text>
-      <text x="108" y="57.6" fill="#047857" font-weight="600">• Semantic LLM mail defense</text>
+    <!-- Row 4 -->
+    <text x="15" y="160" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">Autonomy</text>
+    <text x="235" y="160" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">Auto Purple Team</text>
+    <line x1="15" y1="168" x2="235" y2="168" stroke="#bbf7d0" stroke-width="1"/>
 
-      <text x="0" y="73.2" fill="#334155">• Autonomous agent tooling</text>
-      <text x="108" y="73.2" fill="#047857" font-weight="600">• Continuous purple team loops</text>
-
-      <text x="0" y="88.8" fill="#334155">• 27-second breakout speed</text>
-      <text x="108" y="88.8" fill="#047857" font-weight="600">• &lt; 47-second SOAR containment</text>
-    </g>
-
-    <rect x="9.6" y="138" width="208.8" height="15.6" fill="#f0fdf4" stroke="#86efac" rx="2.4"/>
-    <text x="114" y="148.2" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">OUTCOME: DEFENSIVE SPEED PARITY RESTORED</text>
+    <!-- Row 5 -->
+    <text x="15" y="185" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">27s Breakout</text>
+    <text x="235" y="185" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="end">47s SOAR Contain</text>
+    
+    <rect x="0" y="244" width="250" height="36" fill="#dcfce7" rx="0" ry="0"/>
+    <text x="125" y="266" fill="#15803d" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" text-anchor="middle">SPEED PARITY RESTORED</text>
   </g>
 </svg>

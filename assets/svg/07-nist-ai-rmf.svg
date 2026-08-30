@@ -1,106 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 296.4" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 340">
   <defs>
-    <marker id="arr-nist-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 0 L 6 3 L 0 6 z" fill="#0284c7"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#777"/>
     </marker>
   </defs>
 
-  <!-- Pure White Background -->
-  <rect width="540" height="296.4" fill="#ffffff"/>
-  <rect width="537.6" height="293.4" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <text x="270" y="30" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#000">NIST AI RISK MANAGEMENT FRAMEWORK</text>
+  <text x="270" y="50" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#555">AI RMF 1.0 &amp; NIST AI 600-1</text>
+  
+  <!-- GOVERN -->
+  <rect x="10" y="80" width="115" height="230" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="67.5" y="105" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0d47a1">GOVERN</text>
+  
+  <text x="15" y="130" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• AI charter</text>
+  <text x="15" y="145" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Roles/policies</text>
+  <text x="15" y="160" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• RMF aligned</text>
+  
+  <rect x="15" y="280" width="105" height="20" fill="#1976d2" rx="3"/>
+  <text x="67.5" y="294" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">ACCOUNTABILITY</text>
 
-  <!-- Title Header -->
-  <text x="270" y="21.6" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">NIST AI RISK MANAGEMENT FRAMEWORK (AI RMF 1.0 &amp; NIST AI 600-1)</text>
-  <text x="270" y="34.8" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle">The Four Core AI Governance Functions for Enterprise Cybersecurity AI</text>
+  <!-- Arrow -->
+  <line x1="125" y1="195" x2="140" y2="195" stroke="#777" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <!-- 4 Horizontal Lifecycle Columns -->
+  <!-- MAP -->
+  <rect x="145" y="80" width="115" height="230" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="202.5" y="105" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#e65100">MAP</text>
+  
+  <text x="150" y="130" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Risk scope</text>
+  <text x="150" y="145" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Supply chain</text>
+  <text x="150" y="160" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• 3rd-party eval</text>
+  
+  <rect x="150" y="280" width="105" height="20" fill="#f57c00" rx="3"/>
+  <text x="202.5" y="294" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">CONTEXT IDENT.</text>
 
-  <!-- 1. GOVERN -->
-  <g transform="translate(24, 51)">
-    <rect width="114" height="156" fill="#ffffff" stroke="#2563eb" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#eff6ff"/>
-    <text x="57" y="13.2" fill="#1d4ed8" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">1. GOVERN</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Structures &amp; Policies</text>
+  <!-- Arrow -->
+  <line x1="260" y1="195" x2="275" y2="195" stroke="#777" stroke-width="2" marker-end="url(#arrow)"/>
 
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Key Objectives:</text>
-      <text x="0" y="12">• AI risk governance charter</text>
-      <text x="0" y="24">• Role &amp; accountabilities</text>
-      <text x="0" y="36">• Legal compliance rules</text>
-      <text x="0" y="48">• Enterprise ERM alignment</text>
-      <text x="0" y="60">• Whitelist approved models</text>
-    </g>
+  <!-- MEASURE -->
+  <rect x="280" y="80" width="115" height="230" rx="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="337.5" y="105" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">MEASURE</text>
+  
+  <text x="285" y="130" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Bias scoring</text>
+  <text x="285" y="145" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Red teaming</text>
+  <text x="285" y="160" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Data audits</text>
+  
+  <rect x="285" y="280" width="105" height="20" fill="#388e3c" rx="3"/>
+  <text x="337.5" y="294" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">QUANT. AUDIT</text>
 
-    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#eff6ff" stroke="#bfdbfe" rx="2.4"/>
-    <text x="57" y="144" fill="#1e40af" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">ACCOUNTABILITY</text>
-  </g>
+  <!-- Arrow -->
+  <line x1="395" y1="195" x2="410" y2="195" stroke="#777" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <!-- Arrow 1 to 2 -->
-  <line x1="138" y1="126" x2="147" y2="126" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-nist-blue)"/>
-
-  <!-- 2. MAP -->
-  <g transform="translate(147, 51)">
-    <rect width="114" height="156" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#f5f3ff"/>
-    <text x="57" y="13.2" fill="#6d28d9" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">2. MAP</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Context &amp; Risk Scope</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Key Objectives:</text>
-      <text x="0" y="12">• Identify AI-specific risks</text>
-      <text x="0" y="24">• Define target use cases</text>
-      <text x="0" y="36">• Threat model AI vectors</text>
-      <text x="0" y="48">• Evaluate third-party tools</text>
-      <text x="0" y="60">• Classify data sensitivities</text>
-    </g>
-
-    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#faf5ff" stroke="#ddd6fe" rx="2.4"/>
-    <text x="57" y="144" fill="#6d28d9" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">CONTEXT IDENTIFICATION</text>
-  </g>
-
-  <!-- Arrow 2 to 3 -->
-  <line x1="261" y1="126" x2="270" y2="126" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-nist-blue)"/>
-
-  <!-- 3. MEASURE -->
-  <g transform="translate(270, 51)">
-    <rect width="114" height="156" fill="#ffffff" stroke="#ea580c" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#ffedd5"/>
-    <text x="57" y="13.2" fill="#c2410c" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">3. MEASURE</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Assessment &amp; Testing</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">7 Trust Pillars:</text>
-      <text x="0" y="12">• Valid &amp; Reliable scoring</text>
-      <text x="0" y="24">• Safe &amp; Secure verification</text>
-      <text x="0" y="36">• Adversarial red teaming</text>
-      <text x="0" y="48">• Bias &amp; Fairness audits</text>
-      <text x="0" y="60">• Explainability metrics</text>
-    </g>
-
-    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#fff7ed" stroke="#fdba74" rx="2.4"/>
-    <text x="57" y="144" fill="#ea580c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">QUANTITATIVE AUDIT</text>
-  </g>
-
-  <!-- Arrow 3 to 4 -->
-  <line x1="384" y1="126" x2="393" y2="126" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-nist-blue)"/>
-
-  <!-- 4. MANAGE -->
-  <g transform="translate(393, 51)">
-    <rect width="123" height="156" fill="#ffffff" stroke="#059669" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 118.2 0 Q 123 0 123 4.8 L 123 20.4 L 0 20.4 Z" fill="#dcfce7"/>
-    <text x="61.5" y="13.2" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">4. MANAGE</text>
-    <text x="61.5" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Controls &amp; Mitigation</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Key Objectives:</text>
-      <text x="0" y="12">• Deploy input guardrails</text>
-      <text x="0" y="24">• Continuous monitoring</text>
-      <text x="0" y="36">• Automated fallback plans</text>
-      <text x="0" y="48">• Human-in-the-loop gates</text>
-      <text x="0" y="60">• Incident response drills</text>
-    </g>
-
-    <rect x="7.2" y="135" width="108.6" height="13.2" fill="#f0fdf4" stroke="#86efac" rx="2.4"/>
-    <text x="61.5" y="144" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">CONTINUOUS CONTROLS</text>
-  </g>
+  <!-- MANAGE -->
+  <rect x="415" y="80" width="115" height="230" rx="5" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+  <text x="472.5" y="105" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#004d40">MANAGE</text>
+  
+  <text x="420" y="130" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Guardrails</text>
+  <text x="420" y="145" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Rollback plans</text>
+  <text x="420" y="160" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Human-in-loop</text>
+  
+  <rect x="420" y="280" width="105" height="20" fill="#00796b" rx="3"/>
+  <text x="472.5" y="294" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">CONTROLS</text>
 </svg>

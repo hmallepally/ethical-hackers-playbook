@@ -1,95 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 327.6" width="100%" height="100%">
-  <!-- Pure White Background -->
-  <rect width="540" height="327.6" fill="#ffffff"/>
-  <rect width="537.6" height="324.6" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" width="100%" height="100%">
+  <rect width="540" height="380" fill="#ffffff"/>
+  
+  <text x="270" y="30" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" text-anchor="middle">RED TEAM MATURITY MODEL: 4 LEVELS</text>
+  <text x="270" y="50" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="13" text-anchor="middle">From Compliance Checkboxes to Autonomous 24/7 Emulation</text>
 
-  <!-- Title Header -->
-  <text x="270" y="22.8" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">THE RED TEAM MATURITY MODEL: 4 PROGRESSION LEVELS</text>
-  <text x="270" y="36" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" text-anchor="middle">From Compliance Checkboxes to Autonomous 24/7 Machine Adversary Emulation</text>
-
-  <!-- 4 Level Columns -->
-
-  <!-- LEVEL 1 -->
-  <g transform="translate(24, 51)">
-    <rect width="114" height="177" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#f1f5f9"/>
-    <text x="57" y="13.2" fill="#334155" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">LEVEL 1: COMPLIANCE</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Annual Checkbox</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• SOC 2 / PCI / HIPAA audit</text>
-      <text x="0" y="13.2">• Fixed scope &amp; static dates</text>
-      <text x="0" y="26.4">• Predictable known findings</text>
-      <text x="0" y="39.6">• Point-in-time snapshot</text>
-      <text x="0" y="60" fill="#dc2626" font-weight="700">Reality:</text>
-      <text x="0" y="70.8" fill="#dc2626">"Passing an audit ≠</text>
-      <text x="0" y="81.6" fill="#dc2626">being secure"</text>
-    </g>
-
-    <rect x="7.2" y="156" width="99.6" height="13.2" fill="#f8fafc" stroke="#cbd5e1" rx="2.4"/>
-    <text x="57" y="165" fill="#64748b" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">~60% of Enterprises</text>
+  <!-- Level 1 -->
+  <g transform="translate(10, 70)">
+    <rect width="122" height="260" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" rx="6"/>
+    <path d="M 0 6 Q 0 0 6 0 L 116 0 Q 122 0 122 6 L 122 35 L 0 35 Z" fill="#e2e8f0"/>
+    <text x="61" y="22" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LVL 1: COMPLIANCE</text>
+    
+    <text x="10" y="60" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Annual Checkbox</text>
+    <text x="10" y="80" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• SOC 2/PCI/HIPAA</text>
+    <text x="10" y="100" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Known findings</text>
+    
+    <rect x="10" y="150" width="102" height="60" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+    <text x="61" y="165" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" font-style="italic" text-anchor="middle">Reality:</text>
+    <text x="61" y="180" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" font-style="italic" text-anchor="middle">"Passing audit ≠</text>
+    <text x="61" y="195" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="11" font-style="italic" text-anchor="middle">being secure"</text>
+    
+    <text x="61" y="240" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">~60% of Ent.</text>
   </g>
 
-  <!-- LEVEL 2 -->
-  <g transform="translate(147, 51)">
-    <rect width="114" height="177" fill="#ffffff" stroke="#0284c7" stroke-width="0.9" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#e0f2fe"/>
-    <text x="57" y="13.2" fill="#0369a1" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">LEVEL 2: ADVERSARIAL</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Quarterly Exercises</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• Broader unannounced scope</text>
-      <text x="0" y="13.2">• Adversary TTP simulation</text>
-      <text x="0" y="26.4">• Testing business logic</text>
-      <text x="0" y="39.6">• Chained exploit paths</text>
-      <text x="0" y="60" fill="#0369a1" font-weight="700">Outcome:</text>
-      <text x="0" y="70.8">Findings drive core</text>
-      <text x="0" y="81.6">architecture changes</text>
-    </g>
-
-    <rect x="7.2" y="156" width="99.6" height="13.2" fill="#f0f9ff" stroke="#bae6fd" rx="2.4"/>
-    <text x="57" y="165" fill="#0369a1" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">~25% of Enterprises</text>
+  <!-- Level 2 -->
+  <g transform="translate(142, 70)">
+    <rect width="122" height="260" fill="#f0f9ff" stroke="#3b82f6" stroke-width="2" rx="6"/>
+    <path d="M 0 6 Q 0 0 6 0 L 116 0 Q 122 0 122 6 L 122 35 L 0 35 Z" fill="#dbeafe"/>
+    <text x="61" y="22" fill="#1e3a8a" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LVL 2: ADVERSARIAL</text>
+    
+    <text x="10" y="60" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Quarterly Tests</text>
+    <text x="10" y="80" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• TTP Simulation</text>
+    <text x="10" y="100" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Business logic</text>
+    
+    <rect x="10" y="150" width="102" height="60" fill="#ffffff" stroke="#bfdbfe" rx="4"/>
+    <text x="61" y="165" fill="#1e40af" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Outcome:</text>
+    <text x="61" y="180" fill="#1e40af" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">Post-test cure &amp;</text>
+    <text x="61" y="195" fill="#1e40af" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">arch changes</text>
+    
+    <text x="61" y="240" fill="#1d4ed8" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">~25% of Ent.</text>
   </g>
 
-  <!-- LEVEL 3 -->
-  <g transform="translate(270, 51)">
-    <rect width="114" height="177" fill="#ffffff" stroke="#7c3aed" stroke-width="0.9" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#f5f3ff"/>
-    <text x="57" y="13.2" fill="#6d28d9" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">LEVEL 3: AUGMENTED</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Continuous 24/7 AI</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• Automated 24/7 probes</text>
-      <text x="0" y="13.2">• Real-time attack surface</text>
-      <text x="0" y="26.4">• Promptfoo CI/CD gates</text>
-      <text x="0" y="39.6">• Daily threat triage</text>
-      <text x="0" y="60" fill="#6d28d9" font-weight="700">Outcome:</text>
-      <text x="0" y="70.8">Human testers focus</text>
-      <text x="0" y="81.6">on novel zero-days</text>
-    </g>
-
-    <rect x="7.2" y="156" width="99.6" height="13.2" fill="#faf5ff" stroke="#ddd6fe" rx="2.4"/>
-    <text x="57" y="165" fill="#6d28d9" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">~12% Frontier Tech</text>
+  <!-- Level 3 -->
+  <g transform="translate(274, 70)">
+    <rect width="122" height="260" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="6"/>
+    <path d="M 0 6 Q 0 0 6 0 L 116 0 Q 122 0 122 6 L 122 35 L 0 35 Z" fill="#dcfce7"/>
+    <text x="61" y="22" fill="#14532d" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LVL 3: AUGMENTED</text>
+    
+    <text x="10" y="60" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Continuous 24/7</text>
+    <text x="10" y="80" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Auto AI probing</text>
+    <text x="10" y="100" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Promptfoo gates</text>
+    
+    <rect x="10" y="150" width="102" height="60" fill="#ffffff" stroke="#bbf7d0" rx="4"/>
+    <text x="61" y="165" fill="#166534" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Outcome:</text>
+    <text x="61" y="180" fill="#166534" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">Human reviews</text>
+    <text x="61" y="195" fill="#166534" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">novel tech only</text>
+    
+    <text x="61" y="240" fill="#15803d" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">~12% Frontier</text>
   </g>
 
-  <!-- LEVEL 4 -->
-  <g transform="translate(393, 51)">
-    <rect width="123" height="177" fill="#ffffff" stroke="#059669" stroke-width="1.5" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 118.2 0 Q 123 0 123 4.8 L 123 20.4 L 0 20.4 Z" fill="#dcfce7"/>
-    <text x="61.5" y="13.2" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">LEVEL 4: AUTONOMOUS</text>
-    <text x="61.5" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">Continuous Purple Loop</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• Autonomous agents (XBOW)</text>
-      <text x="0" y="13.2">• Live Red ↔ Blue tuning</text>
-      <text x="0" y="26.4">• Dynamic risk score models</text>
-      <text x="0" y="39.6">• Auto Sigma rule synthesis</text>
-      <text x="0" y="60" fill="#15803d" font-weight="800">Outcome:</text>
-      <text x="0" y="70.8" font-weight="700">Sub-minute automated</text>
-      <text x="0" y="81.6" font-weight="700">defensive adaptation</text>
-    </g>
-
-    <rect x="7.2" y="156" width="108.6" height="13.2" fill="#f0fdf4" stroke="#86efac" rx="2.4"/>
-    <text x="61.5" y="165" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">Top 3% Global Defense</text>
+  <!-- Level 4 -->
+  <g transform="translate(406, 70)">
+    <rect width="122" height="260" fill="#faf5ff" stroke="#a855f7" stroke-width="2" rx="6"/>
+    <path d="M 0 6 Q 0 0 6 0 L 116 0 Q 122 0 122 6 L 122 35 L 0 35 Z" fill="#f3e8ff"/>
+    <text x="61" y="22" fill="#581c87" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LVL 4: AUTONOMOUS</text>
+    
+    <text x="10" y="60" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Continuous loop</text>
+    <text x="10" y="80" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• XBOW Agents</text>
+    <text x="10" y="100" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="11">• Dynamic models</text>
+    
+    <rect x="10" y="150" width="102" height="60" fill="#ffffff" stroke="#e9d5ff" rx="4"/>
+    <text x="61" y="165" fill="#6b21a8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Outcome:</text>
+    <text x="61" y="180" fill="#6b21a8" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">Sub-minute auto</text>
+    <text x="61" y="195" fill="#6b21a8" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">defense updates</text>
+    
+    <text x="61" y="240" fill="#7e22ce" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Top 3% Global</text>
   </g>
 </svg>

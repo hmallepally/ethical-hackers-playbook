@@ -1,117 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 312" width="100%" height="100%">
-  <defs>
-    <marker id="arr-recon" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 0 L 6 3 L 0 6 z" fill="#0284c7"/>
-    </marker>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" width="100%" height="100%">
+    <rect width="100%" height="100%" fill="#ffffff" />
+    <text x="270" y="30" font-family="'Segoe UI', sans-serif" font-size="16px" font-weight="bold" text-anchor="middle" fill="#111827">AI-AUGMENTED RECON &amp; ATTACK SURFACE PIPELINE</text>
+    <text x="270" y="50" font-family="'Segoe UI', sans-serif" font-size="12px" text-anchor="middle" fill="#6B7280">From OSINT Ingestion to AI-Generated Attack Hypotheses</text>
+    
+    <!-- Phase 1 -->
+    <rect x="15" y="80" width="115" height="240" rx="6" fill="#F0FDFA" stroke="#0D9488" stroke-width="2" />
+    <rect x="15" y="80" width="115" height="40" rx="6" fill="#0D9488" />
+    <text x="72.5" y="105" font-family="'Segoe UI', sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#ffffff">OSINT HARVEST</text>
+    <text x="25" y="145" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Subdomains</text>
+    <text x="25" y="165" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Endpoints</text>
+    <text x="25" y="185" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Shadow AI</text>
+    <text x="25" y="205" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Secrets</text>
+    <rect x="25" y="290" width="95" height="20" rx="4" fill="#E0F2FE" />
+    <text x="72.5" y="304" font-family="'Segoe UI', sans-serif" font-size="11px" font-weight="bold" text-anchor="middle" fill="#0369A1">Time: &lt;5 Min</text>
+    
+    <!-- Arrow -->
+    <path d="M 130 200 L 140 200 L 140 195 L 150 205 L 140 215 L 140 210 L 130 210 Z" fill="#9CA3AF" />
 
-  <!-- Pure White Background -->
-  <rect width="540" height="312" fill="#ffffff"/>
-  <rect width="537.6" height="309" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
+    <!-- Phase 2 -->
+    <rect x="150" y="80" width="115" height="240" rx="6" fill="#FFF7ED" stroke="#EA580C" stroke-width="2" />
+    <rect x="150" y="80" width="115" height="40" rx="6" fill="#EA580C" />
+    <text x="207.5" y="105" font-family="'Segoe UI', sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#ffffff">AI SYNTHESIS</text>
+    <text x="160" y="145" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Normalize Data</text>
+    <text x="160" y="165" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Correlation</text>
+    <text x="160" y="185" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Vuln Match</text>
+    <rect x="160" y="290" width="95" height="20" rx="4" fill="#E0F2FE" />
+    <text x="207.5" y="304" font-family="'Segoe UI', sans-serif" font-size="11px" font-weight="bold" text-anchor="middle" fill="#0369A1">Time: &lt;15 Min</text>
+    
+    <!-- Arrow -->
+    <path d="M 265 200 L 275 200 L 275 195 L 285 205 L 275 215 L 275 210 L 265 210 Z" fill="#9CA3AF" />
 
-  <!-- Title Header -->
-  <text x="270" y="22.8" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">AI-AUGMENTED RECONNAISSANCE &amp; ATTACK SURFACE PIPELINE</text>
-  <text x="270" y="36" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" text-anchor="middle">From Raw OSINT Ingestion to Machine-Generated Adversarial Attack Hypotheses</text>
+    <!-- Phase 3 -->
+    <rect x="285" y="80" width="115" height="240" rx="6" fill="#F0FDF4" stroke="#16A34A" stroke-width="2" />
+    <rect x="285" y="80" width="115" height="40" rx="6" fill="#16A34A" />
+    <text x="342.5" y="105" font-family="'Segoe UI', sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#ffffff">HYPOTHESES</text>
+    <text x="295" y="145" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Probabilistic</text>
+    <text x="295" y="160" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">  Modeling</text>
+    <text x="295" y="185" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Top Scored</text>
+    <text x="295" y="200" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">  Vectors</text>
+    <rect x="295" y="290" width="95" height="20" rx="4" fill="#DCFCE7" />
+    <text x="342.5" y="304" font-family="'Segoe UI', sans-serif" font-size="11px" font-weight="bold" text-anchor="middle" fill="#15803D">Output: Plan</text>
 
-  <!-- Stage 1: Ingestion -->
-  <g transform="translate(27, 51)">
-    <rect width="108" height="168" fill="#ffffff" stroke="#0284c7" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 103.2 0 Q 108 0 108 4.8 L 108 20.4 L 0 20.4 Z" fill="#e0f2fe"/>
-    <text x="54" y="13.2" fill="#0369a1" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">1. OSINT HARVESTING</text>
+    <!-- Arrow -->
+    <path d="M 400 200 L 410 200 L 410 195 L 420 205 L 410 215 L 410 210 L 400 210 Z" fill="#9CA3AF" />
 
-    <g transform="translate(8.4, 30)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Subdomains &amp; DNS:</text>
-      <text x="0" y="9.6">• crt.sh / Subfinder / Amass</text>
-
-      <text x="0" y="26.4" font-weight="700" fill="#0f172a">Exposed Endpoints:</text>
-      <text x="0" y="36">• Shodan / Censys scans</text>
-      <text x="0" y="45.6">• Swagger UI &amp; OpenAPI docs</text>
-
-      <text x="0" y="62.4" font-weight="700" fill="#0f172a">Shadow AI Probes:</text>
-      <text x="0" y="72">• Ollama (:11434), vLLM (:8000)</text>
-      <text x="0" y="81.6">• Qdrant / Milvus (:6333)</text>
-
-      <text x="0" y="98.4" font-weight="700" fill="#0f172a">Secrets &amp; Leaks:</text>
-      <text x="0" y="108">• TruffleHog / GitLeaks</text>
-    </g>
-
-    <rect x="7.2" y="146.4" width="93.6" height="13.2" fill="#f0f9ff" stroke="#bae6fd" rx="2.4"/>
-    <text x="54" y="155.4" fill="#0369a1" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">Time: &lt; 5 Minutes</text>
-  </g>
-
-  <!-- Arrow 1 to 2 -->
-  <line x1="135" y1="132" x2="153" y2="132" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-recon)"/>
-
-  <!-- Stage 2: Correlation Engine -->
-  <g transform="translate(156, 51)">
-    <rect width="108" height="168" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 103.2 0 Q 108 0 108 4.8 L 108 20.4 L 0 20.4 Z" fill="#f5f3ff"/>
-    <text x="54" y="13.2" fill="#6d28d9" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">2. AI SYNTHESIS &amp; GRAPH</text>
-
-    <g transform="translate(8.4, 30)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Normalization:</text>
-      <text x="0" y="9.6">• De-duplicate IP mappings</text>
-      <text x="0" y="19.2">• Fingerprint tech stacks</text>
-
-      <text x="0" y="36" font-weight="700" fill="#0f172a">Graph Correlation:</text>
-      <text x="0" y="45.6">• Link DNS to cloud buckets</text>
-      <text x="0" y="55.2">• Cluster dev vs. prod assets</text>
-
-      <text x="0" y="72" font-weight="700" fill="#0f172a">Vulnerability Match:</text>
-      <text x="0" y="81.6">• Map CVEs to exposed ports</text>
-      <text x="0" y="91.2">• Identify unauth AI APIs</text>
-    </g>
-
-    <rect x="7.2" y="146.4" width="93.6" height="13.2" fill="#faf5ff" stroke="#ddd6fe" rx="2.4"/>
-    <text x="54" y="155.4" fill="#6d28d9" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">Time: &lt; 15 Minutes</text>
-  </g>
-
-  <!-- Arrow 2 to 3 -->
-  <line x1="264" y1="132" x2="282" y2="132" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-recon)"/>
-
-  <!-- Stage 3: Attack Hypotheses -->
-  <g transform="translate(285, 51)">
-    <rect width="108" height="168" fill="#ffffff" stroke="#ea580c" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 103.2 0 Q 108 0 108 4.8 L 108 20.4 L 0 20.4 Z" fill="#ffedd5"/>
-    <text x="54" y="13.2" fill="#c2410c" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">3. ATTACK HYPOTHESES</text>
-
-    <g transform="translate(8.4, 30)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Probabilistic Modeling:</text>
-      <text x="0" y="9.6">• Rank attack paths by ROI</text>
-      <text x="0" y="19.2">• Predict defensive friction</text>
-
-      <text x="0" y="36" font-weight="700" fill="#0f172a">Top Scored Vectors:</text>
-      <text x="0" y="45.6" fill="#dc2626" font-weight="700">1. Unauth Ollama Prompt RCE</text>
-      <text x="0" y="55.2" fill="#ea580c" font-weight="700">2. BOLA on api-v2 endpoint</text>
-      <text x="0" y="64.8" fill="#d97706" font-weight="700">3. Exposed Qdrant Vector DB</text>
-      <text x="0" y="74.4">4. Leaked Git commit API key</text>
-    </g>
-
-    <rect x="7.2" y="146.4" width="93.6" height="13.2" fill="#fff7ed" stroke="#fdba74" rx="2.4"/>
-    <text x="54" y="155.4" fill="#c2410c" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">Prioritized Plan</text>
-  </g>
-
-  <!-- Arrow 3 to 4 -->
-  <line x1="393" y1="132" x2="411" y2="132" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-recon)"/>
-
-  <!-- Stage 4: Pentester Action Plan -->
-  <g transform="translate(414, 51)">
-    <rect width="99" height="168" fill="#ffffff" stroke="#059669" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 94.2 0 Q 99 0 99 4.8 L 99 20.4 L 0 20.4 Z" fill="#dcfce7"/>
-    <text x="49.5" y="13.2" fill="#15803d" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">4. TARGET ENGAGEMENT</text>
-
-    <g transform="translate(8.4, 30)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">Targeted Execution:</text>
-      <text x="0" y="10.8">• Focused manual deep-dive</text>
-      <text x="0" y="21.6">• Verified findings in scope</text>
-      <text x="0" y="32.4">• Zero noisy wasted scans</text>
-
-      <text x="0" y="54" font-weight="700" fill="#0f172a">Executive Report:</text>
-      <text x="0" y="64.8">• Auto-drafted evidence</text>
-      <text x="0" y="75.6">• Remediation priorities</text>
-    </g>
-
-    <rect x="7.2" y="146.4" width="84.6" height="13.2" fill="#f0fdf4" stroke="#86efac" rx="2.4"/>
-    <text x="49.5" y="155.4" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">81% TIME REDUCTION</text>
-  </g>
+    <!-- Phase 4 -->
+    <rect x="420" y="80" width="110" height="240" rx="6" fill="#FAF5FF" stroke="#9333EA" stroke-width="2" />
+    <rect x="420" y="80" width="110" height="40" rx="6" fill="#9333EA" />
+    <text x="475" y="105" font-family="'Segoe UI', sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#ffffff">ENGAGEMENT</text>
+    <text x="430" y="145" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Execution</text>
+    <text x="430" y="165" font-family="'Segoe UI', sans-serif" font-size="11px" fill="#374151">• Exec Report</text>
+    <rect x="425" y="280" width="100" height="30" rx="4" fill="#F3E8FF" />
+    <text x="475" y="295" font-family="'Segoe UI', sans-serif" font-size="10px" font-weight="bold" text-anchor="middle" fill="#7E22CE">85% TIME</text>
+    <text x="475" y="306" font-family="'Segoe UI', sans-serif" font-size="10px" font-weight="bold" text-anchor="middle" fill="#7E22CE">REDUCTION</text>
 </svg>

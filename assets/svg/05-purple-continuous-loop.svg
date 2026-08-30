@@ -1,84 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280.8" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="100%" height="100%">
+  <rect width="540" height="320" fill="#ffffff" />
+  <text x="270" y="30" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">CONTINUOUS AI-ORCHESTRATED ADVERSARY EMULATION</text>
+  <text x="270" y="50" font-family="'Segoe UI', sans-serif" font-size="14" text-anchor="middle" fill="#6B7280">Automated Purple Team Feedback Loop</text>
+
+  <rect x="10" y="80" width="96" height="150" rx="6" fill="#EFF6FF" stroke="#93C5FD" />
+  <text x="58" y="100" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1E40AF">AI ORCH</text>
+  <text x="58" y="125" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#1E40AF">Dynamic</text>
+  <text x="58" y="140" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#1E40AF">Selection</text>
+  <text x="58" y="165" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#1E40AF">Prioritizes</text>
+  <text x="58" y="180" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#1E40AF">CTI Intel</text>
+
+  <path d="M106 155 L116 155" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="116" y="80" width="96" height="150" rx="6" fill="#FEF2F2" stroke="#FCA5A5" />
+  <text x="164" y="100" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#991B1B">ATOMIC EXEC</text>
+  <text x="164" y="125" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#991B1B">Adversary</text>
+  <text x="164" y="140" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#991B1B">Probing</text>
+  <text x="164" y="165" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#991B1B">Runs ART,</text>
+  <text x="164" y="180" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#991B1B">Artifacts</text>
+
+  <path d="M212 155 L222 155" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="222" y="80" width="96" height="150" rx="6" fill="#FAF5FF" stroke="#D8B4FE" />
+  <text x="270" y="100" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#6B21A8">SIEM MONIT</text>
+  <text x="270" y="125" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#6B21A8">Detection</text>
+  <text x="270" y="140" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#6B21A8">Audit</text>
+  <text x="270" y="165" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#6B21A8">Queries</text>
+  <text x="270" y="180" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#6B21A8">EDR/SIEM</text>
+
+  <path d="M318 155 L328 155" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="328" y="80" width="96" height="150" rx="6" fill="#FFF7ED" stroke="#FDBA74" />
+  <text x="376" y="100" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#C2410C">GAP ANALYS</text>
+  <text x="376" y="125" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#C2410C">Blindspot</text>
+  <text x="376" y="140" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#C2410C">Scoring</text>
+  <text x="376" y="165" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#C2410C">Quantifies</text>
+  <text x="376" y="180" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#C2410C">Drift</text>
+
+  <path d="M424 155 L434 155" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="434" y="80" width="96" height="150" rx="6" fill="#F0FDF4" stroke="#86EFAC" />
+  <text x="482" y="100" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#15803D">RULE SYNTH</text>
+  <text x="482" y="125" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#15803D">Auto Remediate</text>
+  <text x="482" y="140" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#15803D">Gen Sigma</text>
+  <text x="482" y="165" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#15803D">Submits PR</text>
+  <text x="482" y="180" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#15803D">to Repo</text>
+
+  <path d="M482 230 L482 270 L58 270 L58 230" fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrow)" />
+  <text x="270" y="260" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#374151">DAILY CONTINUOUS REPEAT CYCLE</text>
+
   <defs>
-    <marker id="arr-purple-loop" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 0 L 6 3 L 0 6 z" fill="#7c3aed"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9CA3AF" />
     </marker>
   </defs>
-
-  <!-- Pure White Background -->
-  <rect width="540" height="280.8" fill="#ffffff"/>
-  <rect width="537.6" height="277.8" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
-
-  <!-- Title Header -->
-  <text x="270" y="21.6" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">CONTINUOUS AI-ORCHESTRATED ADVERSARY EMULATION</text>
-  <text x="270" y="34.8" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle">Automated Purple Team Feedback Loop: Daily Validation &amp; Detection Rule Synthesis</text>
-
-  <!-- 5 Sequential Cards in Loop -->
-
-  <!-- 1. Selects Techniques -->
-  <g transform="translate(24, 51)">
-    <rect width="90" height="108" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 85.2 0 Q 90 0 90 4.8 L 90 19.2 L 0 19.2 Z" fill="#f5f3ff"/>
-    <text x="45" y="12.6" fill="#6d28d9" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">1. AI ORCHESTRATOR</text>
-    <text x="7.2" y="33.6" fill="#0f172a" font-family="sans-serif" font-size="10.5" font-weight="700">Dynamic Selection</text>
-    <text x="7.2" y="46.8" fill="#475569" font-family="sans-serif" font-size="14">• Samples 10 random ATT&amp;CK / ATLAS techniques</text>
-    <text x="7.2" y="75" fill="#475569" font-family="sans-serif" font-size="14">• Prioritizes recent CTI threat trends</text>
-  </g>
-
-  <!-- Arrow 1 to 2 -->
-  <line x1="114" y1="105" x2="126" y2="105" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr-purple-loop)"/>
-
-  <!-- 2. Executes Atomics -->
-  <g transform="translate(126, 51)">
-    <rect width="90" height="108" fill="#ffffff" stroke="#dc2626" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 85.2 0 Q 90 0 90 4.8 L 90 19.2 L 0 19.2 Z" fill="#fee2e2"/>
-    <text x="45" y="12.6" fill="#b91c1c" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">2. ATOMIC EXECUTION</text>
-    <text x="7.2" y="33.6" fill="#0f172a" font-family="sans-serif" font-size="10.5" font-weight="700">Adversary Probing</text>
-    <text x="7.2" y="46.8" fill="#475569" font-family="sans-serif" font-size="14">• Runs Atomic Red Team test harnesses</text>
-    <text x="7.2" y="75" fill="#475569" font-family="sans-serif" font-size="14">• Generates realistic attack telemetry</text>
-  </g>
-
-  <!-- Arrow 2 to 3 -->
-  <line x1="216" y1="105" x2="228" y2="105" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr-purple-loop)"/>
-
-  <!-- 3. Telemetry Monitor -->
-  <g transform="translate(228, 51)">
-    <rect width="90" height="108" fill="#ffffff" stroke="#0284c7" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 85.2 0 Q 90 0 90 4.8 L 90 19.2 L 0 19.2 Z" fill="#e0f2fe"/>
-    <text x="45" y="12.6" fill="#0369a1" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">3. SIEM MONITOR</text>
-    <text x="7.2" y="33.6" fill="#0f172a" font-family="sans-serif" font-size="10.5" font-weight="700">Detection Audit</text>
-    <text x="7.2" y="46.8" fill="#475569" font-family="sans-serif" font-size="14">• Queries SIEM / EDR alert indices</text>
-    <text x="7.2" y="75" fill="#475569" font-family="sans-serif" font-size="14">• Correlates expected vs. fired alerts</text>
-  </g>
-
-  <!-- Arrow 3 to 4 -->
-  <line x1="318" y1="105" x2="330" y2="105" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr-purple-loop)"/>
-
-  <!-- 4. Gap Analysis -->
-  <g transform="translate(330, 51)">
-    <rect width="90" height="108" fill="#ffffff" stroke="#ea580c" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 85.2 0 Q 90 0 90 4.8 L 90 19.2 L 0 19.2 Z" fill="#ffedd5"/>
-    <text x="45" y="12.6" fill="#c2410c" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">4. GAP ANALYSIS</text>
-    <text x="7.2" y="33.6" fill="#0f172a" font-family="sans-serif" font-size="10.5" font-weight="700">Blindspot Scoring</text>
-    <text x="7.2" y="46.8" fill="#475569" font-family="sans-serif" font-size="14">• "4/10 techniques went undetected"</text>
-    <text x="7.2" y="75" fill="#475569" font-family="sans-serif" font-size="14">• Quantifies visibility degradation</text>
-  </g>
-
-  <!-- Arrow 4 to 5 -->
-  <line x1="420" y1="105" x2="432" y2="105" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr-purple-loop)"/>
-
-  <!-- 5. Rule Synthesis -->
-  <g transform="translate(432, 51)">
-    <rect width="84" height="108" fill="#ffffff" stroke="#059669" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 79.2 0 Q 84 0 84 4.8 L 84 19.2 L 0 19.2 Z" fill="#dcfce7"/>
-    <text x="42" y="12.6" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">5. RULE SYNTHESIS</text>
-    <text x="7.2" y="33.6" fill="#0f172a" font-family="sans-serif" font-size="10.5" font-weight="700">Auto Remediation</text>
-    <text x="7.2" y="46.8" fill="#475569" font-family="sans-serif" font-size="14">• Generates Sigma &amp; YARA-L rules</text>
-    <text x="7.2" y="75" fill="#475569" font-family="sans-serif" font-size="14">• Submits PR to detection repo</text>
-  </g>
-
-  <!-- Loop back arrow -->
-  <path d="M 790 265 V 305 H 115 V 265" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr-purple-loop)"/>
-  <rect x="204" y="175.8" width="132" height="14.4" fill="#ffffff" stroke="#ddd6fe" rx="2.4"/>
-  <text x="270" y="185.4" fill="#6d28d9" font-family="sans-serif" font-size="10.5" font-weight="800" text-anchor="middle">DAILY CONTINUOUS REPEAT CYCLE</text>
 </svg>

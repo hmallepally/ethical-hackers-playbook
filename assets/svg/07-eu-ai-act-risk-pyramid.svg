@@ -1,61 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 358.8" width="100%" height="100%">
-  <!-- Pure White Background -->
-  <rect width="540" height="358.8" fill="#ffffff"/>
-  <rect width="537.6" height="355.8" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <text x="270" y="30" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#000">EU AI ACT RISK CLASSIFICATION</text>
+  <text x="270" y="50" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#555">Regulation (EU) 2024/1689 &amp; NIST AI 600-1</text>
+  
+  <!-- Tier 1 -->
+  <rect x="150" y="70" width="240" height="65" rx="5" fill="#ffeeee" stroke="#d32f2f" stroke-width="2"/>
+  <text x="270" y="90" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#b71c1c">UNACCEPTABLE RISK — PROHIBITED</text>
+  <text x="270" y="105" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Social scoring, biometrics</text>
+  <text x="270" y="120" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Fines: €35M or 7% turnover</text>
 
-  <!-- Title Header -->
-  <text x="270" y="22.8" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">EU AI ACT RISK CLASSIFICATION &amp; GOVERNANCE PYRAMID</text>
-  <text x="270" y="36" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" text-anchor="middle">Regulation (EU) 2024/1689 &amp; NIST AI 600-1 Compliance for Security Systems</text>
+  <!-- Tier 2 -->
+  <rect x="110" y="145" width="320" height="65" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="270" y="165" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#e65100">HIGH-RISK AI — ANNEX III / ART 6</text>
+  <text x="270" y="180" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Critical infra, security SOAR</text>
+  <text x="270" y="195" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Needs: Risk mgmt, data gov, human oversight</text>
 
-  <!-- Risk Pyramid Tiers (Stacked) -->
+  <!-- Tier 3 -->
+  <rect x="70" y="220" width="400" height="65" rx="5" fill="#fffde7" stroke="#fbc02d" stroke-width="2"/>
+  <text x="270" y="240" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#f57f17">SPECIFIC TRANSPARENCY — ARTICLE 50</text>
+  <text x="270" y="255" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Customer chatbots, generative text/code</text>
+  <text x="270" y="270" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Needs: Clear disclosure that AI is interacting</text>
 
-  <!-- Tier 1: Unacceptable Risk (Top) -->
-  <g transform="translate(36, 51)">
-    <rect width="468" height="42" fill="#ffffff" stroke="#dc2626" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 114 0 L 114 42 L 4.8 42 Q 0 42 0 37.2 Z" fill="#fee2e2"/>
-    <text x="57" y="19.2" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">UNACCEPTABLE RISK</text>
-    <text x="57" y="30" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">STRICTLY PROHIBITED</text>
-
-    <!-- Details -->
-    <text x="126" y="18" fill="#b91c1c" font-family="sans-serif" font-size="16" font-weight="800">Scope: Social scoring, biometric categorization, unconstrained autonomous weapon systems.</text>
-    <text x="126" y="30" fill="#334155" font-family="sans-serif" font-size="10.5">Penalty: Fines up to €35,000,000 or 7% of global annual turnover.</text>
-  </g>
-
-  <!-- Tier 2: High Risk (Security Tooling) -->
-  <g transform="translate(36, 99)">
-    <rect width="468" height="51" fill="#ffffff" stroke="#ea580c" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 114 0 L 114 51 L 4.8 51 Q 0 51 0 46.2 Z" fill="#ffedd5"/>
-    <text x="57" y="21.6" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">HIGH-RISK AI</text>
-    <text x="57" y="32.4" fill="#c2410c" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">ANNEX III / ARTICLE 6</text>
-    <text x="57" y="42" fill="#ea580c" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">2026 Enforcement</text>
-
-    <!-- Details -->
-    <text x="126" y="16.8" fill="#c2410c" font-family="sans-serif" font-size="16" font-weight="800">Scope: Critical Infrastructure, Automated Security SOAR, Cyber Vulnerability Profiling.</text>
-    <text x="126" y="28.8" fill="#334155" font-family="sans-serif" font-size="14">Mandatory: 1. Risk Management (Art 9) • 2. Data Governance (Art 10) • 3. Human Gate (Art 14)</text>
-    <text x="126" y="39.6" fill="#334155" font-family="sans-serif" font-size="14">4. Technical Robustness &amp; Cybersecurity Adversarial Hardening (Art 15)</text>
-  </g>
-
-  <!-- Tier 3: Limited Risk (GenAI & Chatbots) -->
-  <g transform="translate(36, 156)">
-    <rect width="468" height="45" fill="#ffffff" stroke="#ca8a04" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 114 0 L 114 45 L 4.8 45 Q 0 45 0 40.2 Z" fill="#fef9c3"/>
-    <text x="57" y="20.4" fill="#854d0e" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">SPECIFIC TRANSPARENCY</text>
-    <text x="57" y="31.2" fill="#a16207" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">ARTICLE 50</text>
-
-    <!-- Details -->
-    <text x="126" y="19.2" fill="#a16207" font-family="sans-serif" font-size="16" font-weight="800">Scope: Customer-facing AI Chatbots, Generative Text/Code Assistants, Synthetic Media.</text>
-    <text x="126" y="31.2" fill="#334155" font-family="sans-serif" font-size="10.5">Mandatory: Explicit disclosure that the user is interacting with an AI system; watermarking.</text>
-  </g>
-
-  <!-- Tier 4: Minimal Risk (Internal Automation) -->
-  <g transform="translate(36, 207)">
-    <rect width="468" height="39" fill="#ffffff" stroke="#16a34a" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 114 0 L 114 39 L 4.8 39 Q 0 39 0 34.2 Z" fill="#dcfce7"/>
-    <text x="57" y="18" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">MINIMAL / NO RISK</text>
-    <text x="57" y="28.8" fill="#166534" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">PERMITTED FREELY</text>
-
-    <!-- Details -->
-    <text x="126" y="16.8" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800">Scope: Spam filters, AI-assisted video games, heuristic anomaly baselines.</text>
-    <text x="126" y="28.8" fill="#334155" font-family="sans-serif" font-size="10.5">Requirements: Voluntary adherence to ISO/IEC 42001 &amp; NIST AI 600-1 profiles.</text>
-  </g>
+  <!-- Tier 4 -->
+  <rect x="30" y="295" width="480" height="65" rx="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="270" y="315" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">MINIMAL / NO RISK — PERMITTED FREELY</text>
+  <text x="270" y="330" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Spam filters, AI games, anomaly detection</text>
+  <text x="270" y="345" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" fill="#000">• Voluntary: ISO/IEC 42001 &amp; NIST AI 600-1</text>
 </svg>

@@ -1,91 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 296.4" width="100%" height="100%">
-  <!-- Pure White Background -->
-  <rect width="540" height="296.4" fill="#ffffff"/>
-  <rect width="537.6" height="293.4" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <text x="270" y="30" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#000">EU AI ACT — ENFORCEMENT TIMELINE</text>
+  <text x="270" y="50" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#555">From Prohibited Practices (2025) to Full Application (2027)</text>
+  
+  <line x1="67" y1="90" x2="472" y2="90" stroke="#ccc" stroke-width="4"/>
+  <circle cx="67.5" cy="90" r="6" fill="#d32f2f"/>
+  <circle cx="202.5" cy="90" r="6" fill="#f57c00"/>
+  <circle cx="337.5" cy="90" r="6" fill="#1976d2"/>
+  <circle cx="472.5" cy="90" r="6" fill="#388e3c"/>
 
-  <!-- Title Header -->
-  <text x="270" y="21.6" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">EU AI ACT — MULTI-YEAR ENFORCEMENT TIMELINE</text>
-  <text x="270" y="34.8" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle">Staggered Milestones from Prohibited AI Bans (2025) to Full Application (2027)</text>
+  <!-- Card 1 -->
+  <rect x="5" y="110" width="125" height="230" rx="5" fill="#ffeeee" stroke="#d32f2f" stroke-width="2"/>
+  <text x="67.5" y="130" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#b71c1c">FEB 2, 2025</text>
+  <text x="67.5" y="145" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#b71c1c">Prohibited</text>
+  
+  <text x="10" y="170" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Subliminal bans</text>
+  <text x="10" y="185" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Social scoring</text>
+  <text x="10" y="200" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Face scraping</text>
+  <text x="10" y="215" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Predict police</text>
+  
+  <rect x="10" y="295" width="115" height="30" fill="#d32f2f" rx="3"/>
+  <text x="67.5" y="309" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">ACTIVE</text>
+  <text x="67.5" y="321" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">ENFORCEMENT</text>
+  
+  <!-- Card 2 -->
+  <rect x="140" y="110" width="125" height="230" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="202.5" y="130" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#e65100">AUG 2, 2025</text>
+  <text x="202.5" y="145" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#e65100">GPAI Rules</text>
+  
+  <text x="145" y="170" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• OS exceptions</text>
+  <text x="145" y="185" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Copyright OK</text>
+  <text x="145" y="200" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Risk checks</text>
+  <text x="145" y="215" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Penalties live</text>
+  
+  <rect x="145" y="295" width="115" height="30" fill="#f57c00" rx="3"/>
+  <text x="202.5" y="309" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">GPAI</text>
+  <text x="202.5" y="321" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">REGULATION</text>
+  
+  <!-- Card 3 -->
+  <rect x="275" y="110" width="125" height="230" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="337.5" y="130" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#0d47a1">AUG 2, 2026</text>
+  <text x="337.5" y="145" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0d47a1">High-Risk AI</text>
+  
+  <text x="280" y="170" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Strict enforce</text>
+  <text x="280" y="185" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Cyber SOAR</text>
+  <text x="280" y="200" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Risk audits</text>
+  <text x="280" y="215" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Transp. DBs</text>
+  
+  <rect x="280" y="295" width="115" height="30" fill="#1976d2" rx="3"/>
+  <text x="337.5" y="309" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">HIGH-RISK</text>
+  <text x="337.5" y="321" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">ENFORCEMENT</text>
 
-  <!-- 4 Timeline Phase Cards -->
-
-  <!-- Phase 1: Feb 2, 2025 -->
-  <g transform="translate(24, 51)">
-    <rect width="114" height="156" fill="#ffffff" stroke="#dc2626" stroke-width="0.9" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#fee2e2"/>
-    <text x="57" y="13.2" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">FEB 2, 2025</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Prohibited Practices</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• Subliminal manipulation</text>
-      <text x="0" y="12">• Social scoring systems</text>
-      <text x="0" y="24">• Untargeted face scraping</text>
-      <text x="0" y="36">• Workplace emotion AI</text>
-      <text x="0" y="48">• Predictive policing profiling</text>
-      <text x="0" y="60">• Mandatory AI literacy</text>
-    </g>
-
-    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#fef2f2" stroke="#fca5a5" rx="2.4"/>
-    <text x="57" y="144" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">ACTIVE ENFORCEMENT</text>
-  </g>
-
-  <!-- Phase 2: Aug 2, 2025 -->
-  <g transform="translate(147, 51)">
-    <rect width="114" height="156" fill="#ffffff" stroke="#ea580c" stroke-width="0.9" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#ffedd5"/>
-    <text x="57" y="13.2" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2025</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">GPAI Model Rules</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• GPAI tech documentation</text>
-      <text x="0" y="12">• Copyright compliance</text>
-      <text x="0" y="24">• Systemic risk evaluations</text>
-      <text x="0" y="36">• Adversarial model testing</text>
-      <text x="0" y="48">• National authorities active</text>
-      <text x="0" y="60">• Penalty framework live</text>
-    </g>
-
-    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#fff7ed" stroke="#fdba74" rx="2.4"/>
-    <text x="57" y="144" fill="#c2410c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">GPAI REGULATION</text>
-  </g>
-
-  <!-- Phase 3: Aug 2, 2026 -->
-  <g transform="translate(270, 51)">
-    <rect width="114" height="156" fill="#ffffff" stroke="#0284c7" stroke-width="1.2" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#e0f2fe"/>
-    <text x="57" y="13.2" fill="#0369a1" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2026</text>
-    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">High-Risk AI Systems</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0" font-weight="700" fill="#0f172a">• Annex III fully enforced</text>
-      <text x="0" y="12">• Cybersecurity SOAR rules</text>
-      <text x="0" y="24">• Mandatory risk audits</text>
-      <text x="0" y="36">• Human oversight gates</text>
-      <text x="0" y="48">• Transparency disclosures</text>
-      <text x="0" y="60">• Regulatory sandboxes</text>
-    </g>
-
-    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#f0f9ff" stroke="#7dd3fc" rx="2.4"/>
-    <text x="57" y="144" fill="#0284c7" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">HIGH-RISK ENFORCEMENT</text>
-  </g>
-
-  <!-- Phase 4: Aug 2, 2027 -->
-  <g transform="translate(393, 51)">
-    <rect width="123" height="156" fill="#ffffff" stroke="#059669" stroke-width="0.9" rx="4.8"/>
-    <path d="M 0 4.8 Q 0 0 4.8 0 L 118.2 0 Q 123 0 123 4.8 L 123 20.4 L 0 20.4 Z" fill="#dcfce7"/>
-    <text x="61.5" y="13.2" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2027</text>
-    <text x="61.5" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Full Application</text>
-
-    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
-      <text x="0" y="0">• Annex I regulated products</text>
-      <text x="0" y="12">• Medical &amp; aviation AI</text>
-      <text x="0" y="24">• All provisions binding</text>
-      <text x="0" y="36">• €35M / 7% fines active</text>
-      <text x="0" y="48">• Cross-border enforcement</text>
-      <text x="0" y="60">• Global supply chain scope</text>
-    </g>
-
-    <rect x="7.2" y="135" width="108.6" height="13.2" fill="#f0fdf4" stroke="#86efac" rx="2.4"/>
-    <text x="61.5" y="144" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">100% REGULATORY COVERAGE</text>
-  </g>
+  <!-- Card 4 -->
+  <rect x="410" y="110" width="125" height="230" rx="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="472.5" y="130" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1b5e20">AUG 2, 2027</text>
+  <text x="472.5" y="145" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1b5e20">Full Apply</text>
+  
+  <text x="415" y="170" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• All provisions</text>
+  <text x="415" y="185" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Market AI</text>
+  <text x="415" y="200" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• All binding</text>
+  <text x="415" y="215" font-family="'Segoe UI', sans-serif" font-size="11" fill="#000">• Cross-border</text>
+  
+  <rect x="415" y="295" width="115" height="30" fill="#388e3c" rx="3"/>
+  <text x="472.5" y="309" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">100% REGULATORY</text>
+  <text x="472.5" y="321" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">COVERAGE</text>
 </svg>
