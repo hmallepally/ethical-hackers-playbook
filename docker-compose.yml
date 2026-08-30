@@ -1,0 +1,43 @@
+# The Ethical Hacker's Playbook — Unified Hands-on Practice Lab
+# 2026 Edition: Web Applications + Local AI Inference + Vector Store
+
+version: '3.8'
+
+services:
+  # Target 1: OWASP Juice Shop (Modern Vulnerable Web Application & API)
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: lab-juice-shop
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+  # Target 2: Damn Vulnerable Web Application (Classic PHP / SQLi / XSS)
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: lab-dvwa
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  # Target 3: Qdrant Vector Database (For testing RAG vector poisoning & exfiltration)
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: lab-qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    restart: unless-stopped
+
+  # Target 4: Ollama Local LLM Inference Engine (For testing Prompt Injection & Tool Calling)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: lab-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_models:

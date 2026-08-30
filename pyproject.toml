@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethical-hackers-playbook"
+version = "2026.1.0"
+authors = [
+  { name="Harinath Mallepally", email="contact@evergreenhub.com" },
+]
+description = "Official Hands-On Labs and Companion Codebase for 'The Ethical Hacker's Playbook: AI on Our Side'"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Security",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "pydantic>=2.5.0",
+    "scikit-learn>=1.4.0",
+    "pandas>=2.2.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hmallepally/ethical-hackers-playbook"
+"Bug Tracker" = "https://github.com/hmallepally/ethical-hackers-playbook/issues"

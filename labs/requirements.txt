@@ -1,0 +1,8 @@
+# The Ethical Hacker's Playbook: AI on Our Side (2026 Edition)
+# Python Dependencies for Hands-On Practice Labs
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pydantic>=2.5.0
+scikit-learn>=1.4.0
+pandas>=2.2.0
