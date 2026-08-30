@@ -1,103 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1120"/>
-      <stop offset="100%" stop-color="#0f172a"/>
-    </linearGradient>
-    <linearGradient id="agent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#6366f1"/>
-    </linearGradient>
     <marker id="arrow-purple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a855f7"/>
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"/>
     </marker>
     <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/>
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
     </marker>
   </defs>
 
-  <rect width="900" height="460" fill="url(#bg)" rx="12"/>
-  <rect width="898" height="458" x="1" y="1" fill="none" stroke="#1e293b" stroke-width="2" rx="12"/>
+  <!-- Pure White Background -->
+  <rect width="900" height="460" fill="#ffffff"/>
+  <rect width="896" height="456" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
 
   <!-- Title Header -->
-  <text x="450" y="40" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" text-anchor="middle">MODEL CONTEXT PROTOCOL (MCP) &amp; AGENT THREAT SURFACE</text>
-  <text x="450" y="62" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle">OWASP Agentic Top 10 (ASI01–ASI10): Attack Vectors in Autonomous Tool Calling</text>
+  <text x="450" y="40" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" text-anchor="middle">MODEL CONTEXT PROTOCOL (MCP) &amp; AGENT THREAT SURFACE</text>
+  <text x="450" y="62" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">OWASP Agentic Top 10 (ASI01–ASI10): Attack Vectors in Autonomous Tool Calling</text>
 
   <!-- Left Box: Autonomous Multi-Agent Orchestrator -->
   <g transform="translate(45, 95)">
-    <rect width="240" height="320" fill="#1b1d36" stroke="#8b5cf6" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 232 0 Q 240 0 240 8 L 240 36 L 0 36 Z" fill="url(#agent-grad)"/>
-    <text x="120" y="23" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">AGENT ORCHESTRATOR (LLM)</text>
+    <rect width="240" height="330" fill="#ffffff" stroke="#7c3aed" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 232 0 Q 240 0 240 8 L 240 36 L 0 36 Z" fill="#f5f3ff"/>
+    <text x="120" y="23" fill="#6d28d9" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">AGENT ORCHESTRATOR (LLM)</text>
 
     <!-- Sub components -->
-    <rect x="15" y="55" width="210" height="45" fill="#111327" stroke="#4338ca" rx="4"/>
-    <text x="25" y="73" fill="#c7d2fe" font-family="sans-serif" font-size="10" font-weight="600">Goal Planning &amp; ReAct Loop</text>
-    <text x="25" y="88" fill="#94a3b8" font-family="sans-serif" font-size="9">Reasoning &amp; Sub-task Delegation</text>
+    <rect x="15" y="55" width="210" height="50" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
+    <text x="25" y="73" fill="#6d28d9" font-family="sans-serif" font-size="10" font-weight="700">Goal Planning &amp; ReAct Loop</text>
+    <text x="25" y="90" fill="#475569" font-family="sans-serif" font-size="9">Reasoning &amp; Sub-task Delegation</text>
 
-    <rect x="15" y="115" width="210" height="75" fill="#291624" stroke="#ef4444" rx="4"/>
-    <text x="25" y="133" fill="#fca5a5" font-family="sans-serif" font-size="10" font-weight="700">⚠️ ASI01: Agent Goal Hijack</text>
-    <text x="25" y="148" fill="#e2e8f0" font-family="sans-serif" font-size="9">Adversary prompt alters agent intent</text>
-    <text x="25" y="162" fill="#e2e8f0" font-family="sans-serif" font-size="9">during multi-turn dialogue.</text>
+    <rect x="15" y="118" width="210" height="85" fill="#fef2f2" stroke="#dc2626" rx="4"/>
+    <text x="25" y="136" fill="#b91c1c" font-family="sans-serif" font-size="10" font-weight="800">⚠️ ASI01: Agent Goal Hijack</text>
+    <text x="25" y="153" fill="#334155" font-family="sans-serif" font-size="9">Adversary prompt alters agent intent</text>
+    <text x="25" y="168" fill="#334155" font-family="sans-serif" font-size="9">during multi-turn dialogue loops.</text>
 
-    <rect x="15" y="205" width="210" height="90" fill="#111327" stroke="#3730a3" rx="4"/>
-    <text x="25" y="223" fill="#c7d2fe" font-family="sans-serif" font-size="10" font-weight="600">Context Window &amp; History</text>
-    <text x="25" y="240" fill="#94a3b8" font-family="sans-serif" font-size="9">Tool call definitions, system prompts,</text>
-    <text x="25" y="254" fill="#94a3b8" font-family="sans-serif" font-size="9">and external data payloads.</text>
+    <rect x="15" y="215" width="210" height="95" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
+    <text x="25" y="233" fill="#6d28d9" font-family="sans-serif" font-size="10" font-weight="700">Context Window &amp; History</text>
+    <text x="25" y="250" fill="#475569" font-family="sans-serif" font-size="9">Tool call definitions, system prompts,</text>
+    <text x="25" y="265" fill="#475569" font-family="sans-serif" font-size="9">and external data payloads.</text>
   </g>
 
   <!-- Connectors -->
-  <line x1="285" y1="210" x2="335" y2="210" stroke="#a855f7" stroke-width="2" marker-end="url(#arrow-purple)"/>
-  <line x1="335" y1="250" x2="285" y2="250" stroke="#ef4444" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <line x1="285" y1="210" x2="335" y2="210" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <line x1="335" y1="250" x2="285" y2="250" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arrow-red)"/>
 
   <!-- Center Box: Model Context Protocol (MCP) Server -->
   <g transform="translate(340, 95)">
-    <rect width="240" height="320" fill="#162338" stroke="#0ea5e9" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 232 0 Q 240 0 240 8 L 240 36 L 0 36 Z" fill="#0369a1"/>
-    <text x="120" y="23" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">MODEL CONTEXT PROTOCOL (MCP)</text>
+    <rect width="240" height="330" fill="#ffffff" stroke="#0284c7" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 232 0 Q 240 0 240 8 L 240 36 L 0 36 Z" fill="#e0f2fe"/>
+    <text x="120" y="23" fill="#0369a1" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">MODEL CONTEXT PROTOCOL (MCP)</text>
 
     <!-- MCP Components -->
-    <rect x="15" y="50" width="210" height="50" fill="#0f172a" stroke="#0284c7" rx="4"/>
-    <text x="25" y="68" fill="#7dd3fc" font-family="sans-serif" font-size="10" font-weight="600">JSON-RPC / SSE Transport</text>
-    <text x="25" y="84" fill="#94a3b8" font-family="sans-serif" font-size="9">Standardized Client-Server Interface</text>
+    <rect x="15" y="50" width="210" height="52" fill="#f0f9ff" stroke="#bae6fd" rx="4"/>
+    <text x="25" y="68" fill="#0369a1" font-family="sans-serif" font-size="10" font-weight="700">JSON-RPC / SSE Transport</text>
+    <text x="25" y="86" fill="#475569" font-family="sans-serif" font-size="9">Standardized Client-Server Interface</text>
 
-    <rect x="15" y="115" width="210" height="75" fill="#2d1720" stroke="#ef4444" rx="4"/>
-    <text x="25" y="133" fill="#fca5a5" font-family="sans-serif" font-size="10" font-weight="700">⚠️ ASI02: Tool Parameter Injection</text>
-    <text x="25" y="148" fill="#e2e8f0" font-family="sans-serif" font-size="9">Malicious arguments injected into</text>
-    <text x="25" y="162" fill="#e2e8f0" font-family="sans-serif" font-size="9">deterministic API function calls.</text>
+    <rect x="15" y="115" width="210" height="85" fill="#fef2f2" stroke="#dc2626" rx="4"/>
+    <text x="25" y="133" fill="#b91c1c" font-family="sans-serif" font-size="10" font-weight="800">⚠️ ASI02: Tool Parameter Inject</text>
+    <text x="25" y="150" fill="#334155" font-family="sans-serif" font-size="9">Malicious arguments injected into</text>
+    <text x="25" y="165" fill="#334155" font-family="sans-serif" font-size="9">deterministic API function calls.</text>
 
-    <rect x="15" y="205" width="210" height="90" fill="#0f172a" stroke="#0284c7" rx="4"/>
-    <text x="25" y="223" fill="#7dd3fc" font-family="sans-serif" font-size="10" font-weight="600">MCP Security Gates:</text>
-    <text x="25" y="240" fill="#94a3b8" font-family="sans-serif" font-size="9">• Strict Pydantic Type Validation</text>
-    <text x="25" y="254" fill="#94a3b8" font-family="sans-serif" font-size="9">• Read-only scoping by default</text>
-    <text x="25" y="268" fill="#94a3b8" font-family="sans-serif" font-size="9">• Human-in-the-Loop Confirmation</text>
+    <rect x="15" y="215" width="210" height="95" fill="#f0f9ff" stroke="#bae6fd" rx="4"/>
+    <text x="25" y="233" fill="#0369a1" font-family="sans-serif" font-size="10" font-weight="700">MCP Security Gates:</text>
+    <text x="25" y="250" fill="#475569" font-family="sans-serif" font-size="9">• Strict Pydantic Schema Validation</text>
+    <text x="25" y="265" fill="#475569" font-family="sans-serif" font-size="9">• Read-only scoping by default</text>
+    <text x="25" y="280" fill="#475569" font-family="sans-serif" font-size="9">• Human-in-the-Loop Confirmation</text>
   </g>
 
   <!-- Connectors -->
-  <line x1="580" y1="210" x2="630" y2="210" stroke="#0ea5e9" stroke-width="2" marker-end="url(#arrow-purple)"/>
-  <line x1="630" y1="250" x2="580" y2="250" stroke="#ef4444" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <line x1="580" y1="210" x2="630" y2="210" stroke="#0284c7" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <line x1="630" y1="250" x2="580" y2="250" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arrow-red)"/>
 
   <!-- Right Box: Tool Execution Environment & External Systems -->
   <g transform="translate(635, 95)">
-    <rect width="220" height="320" fill="#1b2820" stroke="#10b981" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 36 L 0 36 Z" fill="#047857"/>
-    <text x="110" y="23" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">TOOL EXECUTION &amp; BACKENDS</text>
+    <rect width="220" height="330" fill="#ffffff" stroke="#16a34a" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 36 L 0 36 Z" fill="#dcfce7"/>
+    <text x="110" y="23" fill="#15803d" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">TOOL EXECUTION &amp; BACKENDS</text>
 
-    <rect x="15" y="50" width="190" height="42" fill="#0e1f18" stroke="#059669" rx="4"/>
-    <text x="25" y="68" fill="#6ee7b7" font-family="sans-serif" font-size="9" font-weight="600">PostgreSQL / SQL DB Tool</text>
-    <text x="25" y="82" fill="#94a3b8" font-family="sans-serif" font-size="8">Risk: Unconstrained SQL Injection</text>
+    <rect x="15" y="50" width="190" height="42" fill="#f0fdf4" stroke="#86efac" rx="4"/>
+    <text x="25" y="68" fill="#15803d" font-family="sans-serif" font-size="9.5" font-weight="700">PostgreSQL / SQL DB Tool</text>
+    <text x="25" y="83" fill="#475569" font-family="sans-serif" font-size="8.5">Risk: Unconstrained SQL Injection</text>
 
-    <rect x="15" y="102" width="190" height="42" fill="#0e1f18" stroke="#059669" rx="4"/>
-    <text x="25" y="120" fill="#6ee7b7" font-family="sans-serif" font-size="9" font-weight="600">Bash / Python Shell Exec</text>
-    <text x="25" y="134" fill="#94a3b8" font-family="sans-serif" font-size="8">Risk: Sandbox Escape / RCE</text>
+    <rect x="15" y="100" width="190" height="42" fill="#f0fdf4" stroke="#86efac" rx="4"/>
+    <text x="25" y="118" fill="#15803d" font-family="sans-serif" font-size="9.5" font-weight="700">Bash / Python Shell Exec</text>
+    <text x="25" y="133" fill="#475569" font-family="sans-serif" font-size="8.5">Risk: Sandbox Escape / RCE</text>
 
-    <rect x="15" y="154" width="190" height="42" fill="#0e1f18" stroke="#059669" rx="4"/>
-    <text x="25" y="172" fill="#6ee7b7" font-family="sans-serif" font-size="9" font-weight="600">Enterprise REST API Tool</text>
-    <text x="25" y="186" fill="#94a3b8" font-family="sans-serif" font-size="8">Risk: BOLA / Unauthorized Actions</text>
+    <rect x="15" y="150" width="190" height="42" fill="#f0fdf4" stroke="#86efac" rx="4"/>
+    <text x="25" y="168" fill="#15803d" font-family="sans-serif" font-size="9.5" font-weight="700">Enterprise REST API Tool</text>
+    <text x="25" y="183" fill="#475569" font-family="sans-serif" font-size="8.5">Risk: BOLA / Unauthorized Actions</text>
 
-    <rect x="12" y="215" width="196" height="85" fill="#2d1720" stroke="#ef4444" rx="4"/>
-    <text x="20" y="233" fill="#fca5a5" font-family="sans-serif" font-size="9" font-weight="700">⚠️ ASI05: Cascading Failure</text>
-    <text x="20" y="248" fill="#e2e8f0" font-family="sans-serif" font-size="8">One compromised subagent</text>
-    <text x="20" y="260" fill="#e2e8f0" font-family="sans-serif" font-size="8">triggers lateral privilege escalation</text>
-    <text x="20" y="272" fill="#e2e8f0" font-family="sans-serif" font-size="8">across peer connected tools.</text>
+    <rect x="12" y="210" width="196" height="100" fill="#fef2f2" stroke="#dc2626" rx="4"/>
+    <text x="20" y="228" fill="#b91c1c" font-family="sans-serif" font-size="9.5" font-weight="800">⚠️ ASI05: Cascading Failure</text>
+    <text x="20" y="245" fill="#334155" font-family="sans-serif" font-size="8.5">One compromised subagent</text>
+    <text x="20" y="260" fill="#334155" font-family="sans-serif" font-size="8.5">triggers lateral privilege escalation</text>
+    <text x="20" y="275" fill="#334155" font-family="sans-serif" font-size="8.5">across peer connected tools.</text>
   </g>
 </svg>

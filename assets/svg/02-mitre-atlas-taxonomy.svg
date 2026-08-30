@@ -1,128 +1,116 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="100%" height="100%">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1120"/>
-      <stop offset="100%" stop-color="#0f172a"/>
-    </linearGradient>
-    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#ec4899"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="900" height="460" fill="url(#bg)" rx="12"/>
-  <rect width="898" height="458" x="1" y="1" fill="none" stroke="#1e293b" stroke-width="2" rx="12"/>
+  <!-- Pure White Background -->
+  <rect width="900" height="460" fill="#ffffff"/>
+  <rect width="896" height="456" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
 
   <!-- Title Header -->
-  <text x="450" y="42" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" text-anchor="middle">THE ADVERSARIAL THREAT MODELING TRINITY</text>
-  <text x="450" y="64" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle">Comparative Matrix: Traditional Network Kill Chain vs. AI System Attack Vectors</text>
+  <text x="450" y="42" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" text-anchor="middle">THE ADVERSARIAL THREAT MODELING TRINITY</text>
+  <text x="450" y="64" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">Comparative Matrix: Traditional Network Kill Chain vs. AI System Attack Vectors</text>
 
   <!-- 3 Framework Columns -->
 
   <!-- 1. Kill Chain -->
   <g transform="translate(45, 90)">
-    <rect width="250" height="330" fill="#182234" stroke="#3b82f6" stroke-width="1.5" rx="8"/>
-    <rect width="250" height="38" fill="#1e3a8a" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#1e3a8a"/>
-    <text x="125" y="24" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">LOCKHEED MARTIN KILL CHAIN</text>
-    <text x="125" y="55" fill="#93c5fd" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">Scope: Perimeter &amp; Host Intrusion</text>
+    <rect width="250" height="335" fill="#ffffff" stroke="#2563eb" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#eff6ff"/>
+    <text x="125" y="24" fill="#1d4ed8" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">LOCKHEED MARTIN KILL CHAIN</text>
+    <text x="125" y="55" fill="#2563eb" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Scope: Perimeter &amp; Host Intrusion</text>
 
     <!-- Steps -->
-    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#e2e8f0">
-      <circle cx="6" cy="10" r="4" fill="#3b82f6"/>
-      <text x="18" y="14">1. Reconnaissance</text>
+    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#1e293b">
+      <circle cx="6" cy="10" r="4" fill="#2563eb"/>
+      <text x="18" y="14" font-weight="600">1. Reconnaissance</text>
 
-      <circle cx="6" cy="40" r="4" fill="#3b82f6"/>
-      <text x="18" y="44">2. Weaponization</text>
+      <circle cx="6" cy="40" r="4" fill="#2563eb"/>
+      <text x="18" y="44" font-weight="600">2. Weaponization</text>
 
-      <circle cx="6" cy="70" r="4" fill="#3b82f6"/>
-      <text x="18" y="74">3. Delivery</text>
+      <circle cx="6" cy="70" r="4" fill="#2563eb"/>
+      <text x="18" y="74" font-weight="600">3. Delivery</text>
 
-      <circle cx="6" cy="100" r="4" fill="#3b82f6"/>
-      <text x="18" y="104">4. Exploitation</text>
+      <circle cx="6" cy="100" r="4" fill="#2563eb"/>
+      <text x="18" y="104" font-weight="600">4. Exploitation</text>
 
-      <circle cx="6" cy="130" r="4" fill="#3b82f6"/>
-      <text x="18" y="134">5. Installation</text>
+      <circle cx="6" cy="130" r="4" fill="#2563eb"/>
+      <text x="18" y="134" font-weight="600">5. Installation</text>
 
-      <circle cx="6" cy="160" r="4" fill="#3b82f6"/>
-      <text x="18" y="164">6. Command &amp; Control (C2)</text>
+      <circle cx="6" cy="160" r="4" fill="#2563eb"/>
+      <text x="18" y="164" font-weight="600">6. Command &amp; Control (C2)</text>
 
-      <circle cx="6" cy="190" r="4" fill="#3b82f6"/>
-      <text x="18" y="194">7. Actions on Objectives</text>
+      <circle cx="6" cy="190" r="4" fill="#2563eb"/>
+      <text x="18" y="194" font-weight="600">7. Actions on Objectives</text>
     </g>
 
-    <rect x="15" y="290" width="220" height="24" fill="#0f172a" rx="4"/>
-    <text x="125" y="306" fill="#60a5fa" font-family="sans-serif" font-size="10" text-anchor="middle">Linear Sequential Progression</text>
+    <rect x="15" y="294" width="220" height="26" fill="#eff6ff" stroke="#bfdbfe" rx="4"/>
+    <text x="125" y="311" fill="#1e40af" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Linear Sequential Progression</text>
   </g>
 
   <!-- 2. MITRE ATT&CK -->
   <g transform="translate(325, 90)">
-    <rect width="250" height="330" fill="#1c2438" stroke="#8b5cf6" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#5b21b6"/>
-    <text x="125" y="24" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">MITRE ATT&amp;CK FRAMEWORK</text>
-    <text x="125" y="55" fill="#c4b5fd" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">Scope: Enterprise TTPs &amp; Behaviors</text>
+    <rect width="250" height="335" fill="#ffffff" stroke="#7c3aed" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#f5f3ff"/>
+    <text x="125" y="24" fill="#6d28d9" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">MITRE ATT&amp;CK FRAMEWORK</text>
+    <text x="125" y="55" fill="#7c3aed" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Scope: Enterprise TTPs &amp; Behaviors</text>
 
     <!-- Steps -->
-    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#e2e8f0">
-      <circle cx="6" cy="10" r="4" fill="#8b5cf6"/>
-      <text x="18" y="14">Initial Access (T1190)</text>
+    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#1e293b">
+      <circle cx="6" cy="10" r="4" fill="#7c3aed"/>
+      <text x="18" y="14" font-weight="600">Initial Access (T1190)</text>
 
-      <circle cx="6" cy="40" r="4" fill="#8b5cf6"/>
-      <text x="18" y="44">Execution (T1059)</text>
+      <circle cx="6" cy="40" r="4" fill="#7c3aed"/>
+      <text x="18" y="44" font-weight="600">Execution (T1059)</text>
 
-      <circle cx="6" cy="70" r="4" fill="#8b5cf6"/>
-      <text x="18" y="74">Persistence (T1053)</text>
+      <circle cx="6" cy="70" r="4" fill="#7c3aed"/>
+      <text x="18" y="74" font-weight="600">Persistence (T1053)</text>
 
-      <circle cx="6" cy="100" r="4" fill="#8b5cf6"/>
-      <text x="18" y="104">Privilege Escalation (T1068)</text>
+      <circle cx="6" cy="100" r="4" fill="#7c3aed"/>
+      <text x="18" y="104" font-weight="600">Privilege Escalation (T1068)</text>
 
-      <circle cx="6" cy="130" r="4" fill="#8b5cf6"/>
-      <text x="18" y="134">Defense Evasion (T1027)</text>
+      <circle cx="6" cy="130" r="4" fill="#7c3aed"/>
+      <text x="18" y="134" font-weight="600">Defense Evasion (T1027)</text>
 
-      <circle cx="6" cy="160" r="4" fill="#8b5cf6"/>
-      <text x="18" y="164">Credential Access (T1003)</text>
+      <circle cx="6" cy="160" r="4" fill="#7c3aed"/>
+      <text x="18" y="164" font-weight="600">Credential Access (T1003)</text>
 
-      <circle cx="6" cy="190" r="4" fill="#8b5cf6"/>
-      <text x="18" y="194">Exfiltration (T1041)</text>
+      <circle cx="6" cy="190" r="4" fill="#7c3aed"/>
+      <text x="18" y="194" font-weight="600">Exfiltration (T1041)</text>
     </g>
 
-    <rect x="15" y="290" width="220" height="24" fill="#0f172a" rx="4"/>
-    <text x="125" y="306" fill="#a78bfa" font-family="sans-serif" font-size="10" text-anchor="middle">Matrix-Based Non-Linear TTPs</text>
+    <rect x="15" y="294" width="220" height="26" fill="#f5f3ff" stroke="#ddd6fe" rx="4"/>
+    <text x="125" y="311" fill="#5b21b6" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Matrix-Based Non-Linear TTPs</text>
   </g>
 
   <!-- 3. MITRE ATLAS -->
   <g transform="translate(605, 90)">
-    <rect width="250" height="330" fill="#261b2e" stroke="#ec4899" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#9d174d"/>
-    <text x="125" y="24" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">MITRE ATLAS (AI SYSTEMS)</text>
-    <text x="125" y="55" fill="#fbcfe8" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">Scope: LLMs, Agents &amp; AI Pipelines</text>
+    <rect width="250" height="335" fill="#ffffff" stroke="#db2777" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#fdf2f8"/>
+    <text x="125" y="24" fill="#be185d" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">MITRE ATLAS (AI SYSTEMS)</text>
+    <text x="125" y="55" fill="#db2777" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Scope: LLMs, Agents &amp; AI Pipelines</text>
 
     <!-- Steps -->
-    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#e2e8f0">
-      <circle cx="6" cy="10" r="4" fill="#ec4899"/>
-      <text x="18" y="14">AI Reconnaissance (AML.TA0000)</text>
+    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#1e293b">
+      <circle cx="6" cy="10" r="4" fill="#db2777"/>
+      <text x="18" y="14" font-weight="600">AI Recon (AML.TA0000)</text>
 
-      <circle cx="6" cy="40" r="4" fill="#ec4899"/>
-      <text x="18" y="44">Model Access (AML.TA0001)</text>
+      <circle cx="6" cy="40" r="4" fill="#db2777"/>
+      <text x="18" y="44" font-weight="600">Model Access (AML.TA0001)</text>
 
-      <circle cx="6" cy="70" r="4" fill="#ec4899"/>
-      <text x="18" y="74">Prompt Injection (AML.TA0002)</text>
+      <circle cx="6" cy="70" r="4" fill="#db2777"/>
+      <text x="18" y="74" font-weight="600">Prompt Injection (AML.TA0002)</text>
 
-      <circle cx="6" cy="100" r="4" fill="#ec4899"/>
-      <text x="18" y="104">Data Poisoning (AML.TA0003)</text>
+      <circle cx="6" cy="100" r="4" fill="#db2777"/>
+      <text x="18" y="104" font-weight="600">Data Poisoning (AML.TA0003)</text>
 
-      <circle cx="6" cy="130" r="4" fill="#ec4899"/>
-      <text x="18" y="134">Safety Evasion (AML.TA0004)</text>
+      <circle cx="6" cy="130" r="4" fill="#db2777"/>
+      <text x="18" y="134" font-weight="600">Safety Evasion (AML.TA0004)</text>
 
-      <circle cx="6" cy="160" r="4" fill="#ec4899"/>
-      <text x="18" y="164">Model Inversion (AML.TA0005)</text>
+      <circle cx="6" cy="160" r="4" fill="#db2777"/>
+      <text x="18" y="164" font-weight="600">Model Inversion (AML.TA0005)</text>
 
-      <circle cx="6" cy="190" r="4" fill="#ec4899"/>
-      <text x="18" y="194">Agent Hijacking (AML.TA0006)</text>
+      <circle cx="6" cy="190" r="4" fill="#db2777"/>
+      <text x="18" y="194" font-weight="600">Agent Hijack (AML.TA0006)</text>
     </g>
 
-    <rect x="15" y="290" width="220" height="24" fill="#0f172a" rx="4"/>
-    <text x="125" y="306" fill="#f472b6" font-family="sans-serif" font-size="10" text-anchor="middle">AI-Native Adversary Tactics</text>
+    <rect x="15" y="294" width="220" height="26" fill="#fdf2f8" stroke="#fbcfe8" rx="4"/>
+    <text x="125" y="311" fill="#9d174d" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">AI-Native Adversary Tactics</text>
   </g>
 </svg>
