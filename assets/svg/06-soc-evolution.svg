@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" height="100%">
+  <!-- Pure White Background -->
+  <rect width="900" height="420" fill="#ffffff"/>
+  <rect width="896" height="416" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
+
+  <!-- Title Header -->
+  <text x="450" y="38" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" text-anchor="middle">THE SOC EVOLUTION: 2015 → 2026</text>
+  <text x="450" y="60" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">From Manual Log Warehouses to Autonomous AI-Native Defense Platforms</text>
+
+  <!-- 4 Generation Cards -->
+
+  <!-- GEN 1 (2015) -->
+  <g transform="translate(40, 85)">
+    <rect width="190" height="295" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#f1f5f9"/>
+    <text x="95" y="22" fill="#334155" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">GEN 1 (2015)</text>
+    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">The Log Warehouse</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Core Tooling:</text>
+      <text x="0" y="18">• Splunk, ArcSight, QRadar</text>
+      <text x="0" y="36">• Raw log ingestion</text>
+
+      <text x="0" y="70" font-weight="700" fill="#0f172a">Staffing Model:</text>
+      <text x="0" y="88">• 50+ human analysts</text>
+      <text x="0" y="106">• 24/7 manual eye-on-glass</text>
+
+      <text x="0" y="140" font-weight="700" fill="#0f172a">Dwell Time &amp; Response:</text>
+      <text x="0" y="158" fill="#dc2626" font-weight="700">• Dwell: 200+ Days</text>
+      <text x="0" y="176">• Manual call to consultants</text>
+    </g>
+
+    <rect x="12" y="260" width="166" height="22" fill="#f8fafc" stroke="#cbd5e1" rx="4"/>
+    <text x="95" y="275" fill="#64748b" font-family="sans-serif" font-size="9" font-weight="700" text-anchor="middle">Reactive Forensic Archiving</text>
+  </g>
+
+  <!-- GEN 2 (2018) -->
+  <g transform="translate(245, 85)">
+    <rect width="190" height="295" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#e0f2fe"/>
+    <text x="95" y="22" fill="#0369a1" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">GEN 2 (2018)</text>
+    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">The Alert Factory</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Core Tooling:</text>
+      <text x="0" y="18">• CrowdStrike, SentinelOne</text>
+      <text x="0" y="36">• Endpoint Detection (EDR)</text>
+
+      <text x="0" y="70" font-weight="700" fill="#0f172a">Staffing Model:</text>
+      <text x="0" y="88">• 30 analysts</text>
+      <text x="0" y="106">• Alert fatigue epidemic</text>
+
+      <text x="0" y="140" font-weight="700" fill="#0f172a">Dwell Time &amp; Response:</text>
+      <text x="0" y="158" fill="#ea580c" font-weight="700">• Dwell: 56 Days (Mandiant)</text>
+      <text x="0" y="176">• Runbook manual isolation</text>
+    </g>
+
+    <rect x="12" y="260" width="166" height="22" fill="#f0f9ff" stroke="#bae6fd" rx="4"/>
+    <text x="95" y="275" fill="#0369a1" font-family="sans-serif" font-size="9" font-weight="700" text-anchor="middle">Endpoint Behavioral Rules</text>
+  </g>
+
+  <!-- GEN 3 (2022) -->
+  <g transform="translate(450, 85)">
+    <rect width="190" height="295" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#f5f3ff"/>
+    <text x="95" y="22" fill="#6d28d9" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">GEN 3 (2022)</text>
+    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Intelligence Platform</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Core Tooling:</text>
+      <text x="0" y="18">• XDR + SOAR Automation</text>
+      <text x="0" y="36">• Pre-built playbook scripts</text>
+
+      <text x="0" y="70" font-weight="700" fill="#0f172a">Staffing Model:</text>
+      <text x="0" y="88">• 15 analysts</text>
+      <text x="0" y="106">• Script maintenance focus</text>
+
+      <text x="0" y="140" font-weight="700" fill="#0f172a">Dwell Time &amp; Response:</text>
+      <text x="0" y="158" fill="#ca8a04" font-weight="700">• Dwell: 16 Days</text>
+      <text x="0" y="176">• Semi-automated playbooks</text>
+    </g>
+
+    <rect x="12" y="260" width="166" height="22" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
+    <text x="95" y="275" fill="#6d28d9" font-family="sans-serif" font-size="9" font-weight="700" text-anchor="middle">Cross-Domain Telemetry</text>
+  </g>
+
+  <!-- GEN 4 (2026) -->
+  <g transform="translate(655, 85)">
+    <rect width="205" height="295" fill="#ffffff" stroke="#16a34a" stroke-width="2.5" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 197 0 Q 205 0 205 8 L 205 34 L 0 34 Z" fill="#dcfce7"/>
+    <text x="102.5" y="22" fill="#15803d" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">GEN 4 (2026)</text>
+    <text x="102.5" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">The AI-Native SOC</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Core Tooling:</text>
+      <text x="0" y="18">• AI Copilots + Autonomous Agents</text>
+      <text x="0" y="36">• 3-Tier Guardrails (Llama/NeMo)</text>
+
+      <text x="0" y="70" font-weight="700" fill="#0f172a">Staffing Model:</text>
+      <text x="0" y="88">• 5-10 Strategic Threat Hunters</text>
+      <text x="0" y="106">• Supervising AI triage loops</text>
+
+      <text x="0" y="140" font-weight="700" fill="#0f172a">Dwell Time &amp; Response:</text>
+      <text x="0" y="158" fill="#15803d" font-weight="800">• Dwell: &lt; 47 Seconds</text>
+      <text x="0" y="176">• Autonomous containment</text>
+    </g>
+
+    <rect x="12" y="260" width="181" height="22" fill="#f0fdf4" stroke="#86efac" rx="4"/>
+    <text x="102.5" y="275" fill="#15803d" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle">Machine-Speed Defense Parity</text>
+  </g>
+</svg>

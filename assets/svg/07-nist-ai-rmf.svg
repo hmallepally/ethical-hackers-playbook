@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
+  <defs>
+    <marker id="arr-nist-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0284c7"/>
+    </marker>
+  </defs>
+
+  <!-- Pure White Background -->
+  <rect width="900" height="380" fill="#ffffff"/>
+  <rect width="896" height="376" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
+
+  <!-- Title Header -->
+  <text x="450" y="36" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" text-anchor="middle">NIST AI RISK MANAGEMENT FRAMEWORK (AI RMF 1.0 &amp; NIST AI 600-1)</text>
+  <text x="450" y="58" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle">The Four Core AI Governance Functions for Enterprise Cybersecurity AI</text>
+
+  <!-- 4 Horizontal Lifecycle Columns -->
+
+  <!-- 1. GOVERN -->
+  <g transform="translate(40, 85)">
+    <rect width="190" height="260" fill="#ffffff" stroke="#2563eb" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#eff6ff"/>
+    <text x="95" y="22" fill="#1d4ed8" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">1. GOVERN</text>
+    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Structures &amp; Policies</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Key Objectives:</text>
+      <text x="0" y="20">• AI risk governance charter</text>
+      <text x="0" y="40">• Role &amp; accountabilities</text>
+      <text x="0" y="60">• Legal compliance rules</text>
+      <text x="0" y="80">• Enterprise ERM alignment</text>
+      <text x="0" y="100">• Whitelist approved models</text>
+    </g>
+
+    <rect x="12" y="225" width="166" height="22" fill="#eff6ff" stroke="#bfdbfe" rx="4"/>
+    <text x="95" y="240" fill="#1e40af" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle">ACCOUNTABILITY</text>
+  </g>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="230" y1="210" x2="245" y2="210" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-nist-blue)"/>
+
+  <!-- 2. MAP -->
+  <g transform="translate(245, 85)">
+    <rect width="190" height="260" fill="#ffffff" stroke="#7c3aed" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#f5f3ff"/>
+    <text x="95" y="22" fill="#6d28d9" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">2. MAP</text>
+    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Context &amp; Risk Scope</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Key Objectives:</text>
+      <text x="0" y="20">• Identify AI-specific risks</text>
+      <text x="0" y="40">• Define target use cases</text>
+      <text x="0" y="60">• Threat model AI vectors</text>
+      <text x="0" y="80">• Evaluate third-party tools</text>
+      <text x="0" y="100">• Classify data sensitivities</text>
+    </g>
+
+    <rect x="12" y="225" width="166" height="22" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
+    <text x="95" y="240" fill="#6d28d9" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle">CONTEXT IDENTIFICATION</text>
+  </g>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="435" y1="210" x2="450" y2="210" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-nist-blue)"/>
+
+  <!-- 3. MEASURE -->
+  <g transform="translate(450, 85)">
+    <rect width="190" height="260" fill="#ffffff" stroke="#ea580c" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#ffedd5"/>
+    <text x="95" y="22" fill="#c2410c" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">3. MEASURE</text>
+    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Assessment &amp; Testing</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">7 Trust Pillars:</text>
+      <text x="0" y="20">• Valid &amp; Reliable scoring</text>
+      <text x="0" y="40">• Safe &amp; Secure verification</text>
+      <text x="0" y="60">• Adversarial red teaming</text>
+      <text x="0" y="80">• Bias &amp; Fairness audits</text>
+      <text x="0" y="100">• Explainability metrics</text>
+    </g>
+
+    <rect x="12" y="225" width="166" height="22" fill="#fff7ed" stroke="#fdba74" rx="4"/>
+    <text x="95" y="240" fill="#ea580c" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle">QUANTITATIVE AUDIT</text>
+  </g>
+
+  <!-- Arrow 3 to 4 -->
+  <line x1="640" y1="210" x2="655" y2="210" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-nist-blue)"/>
+
+  <!-- 4. MANAGE -->
+  <g transform="translate(655, 85)">
+    <rect width="205" height="260" fill="#ffffff" stroke="#059669" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 197 0 Q 205 0 205 8 L 205 34 L 0 34 Z" fill="#dcfce7"/>
+    <text x="102.5" y="22" fill="#15803d" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">4. MANAGE</text>
+    <text x="102.5" y="54" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Controls &amp; Mitigation</text>
+
+    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Key Objectives:</text>
+      <text x="0" y="20">• Deploy input guardrails</text>
+      <text x="0" y="40">• Continuous monitoring</text>
+      <text x="0" y="60">• Automated fallback plans</text>
+      <text x="0" y="80">• Human-in-the-loop gates</text>
+      <text x="0" y="100">• Incident response drills</text>
+    </g>
+
+    <rect x="12" y="225" width="181" height="22" fill="#f0fdf4" stroke="#86efac" rx="4"/>
+    <text x="102.5" y="240" fill="#15803d" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle">CONTINUOUS CONTROLS</text>
+  </g>
+</svg>

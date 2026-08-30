@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="100%" height="100%">
+  <defs>
+    <marker id="arr-recon" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0284c7"/>
+    </marker>
+  </defs>
+
+  <!-- Pure White Background -->
+  <rect width="900" height="400" fill="#ffffff"/>
+  <rect width="896" height="396" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
+
+  <!-- Title Header -->
+  <text x="450" y="38" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" text-anchor="middle">AI-AUGMENTED RECONNAISSANCE &amp; ATTACK SURFACE PIPELINE</text>
+  <text x="450" y="60" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">From Raw OSINT Ingestion to Machine-Generated Adversarial Attack Hypotheses</text>
+
+  <!-- Stage 1: Ingestion -->
+  <g transform="translate(45, 85)">
+    <rect width="180" height="280" fill="#ffffff" stroke="#0284c7" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 172 0 Q 180 0 180 8 L 180 34 L 0 34 Z" fill="#e0f2fe"/>
+    <text x="90" y="22" fill="#0369a1" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">1. OSINT HARVESTING</text>
+
+    <g transform="translate(14, 50)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Subdomains &amp; DNS:</text>
+      <text x="0" y="16">• crt.sh / Subfinder / Amass</text>
+
+      <text x="0" y="44" font-weight="700" fill="#0f172a">Exposed Endpoints:</text>
+      <text x="0" y="60">• Shodan / Censys scans</text>
+      <text x="0" y="76">• Swagger UI &amp; OpenAPI docs</text>
+
+      <text x="0" y="104" font-weight="700" fill="#0f172a">Shadow AI Probes:</text>
+      <text x="0" y="120">• Ollama (:11434), vLLM (:8000)</text>
+      <text x="0" y="136">• Qdrant / Milvus (:6333)</text>
+
+      <text x="0" y="164" font-weight="700" fill="#0f172a">Secrets &amp; Leaks:</text>
+      <text x="0" y="180">• TruffleHog / GitLeaks</text>
+    </g>
+
+    <rect x="12" y="244" width="156" height="22" fill="#f0f9ff" stroke="#bae6fd" rx="4"/>
+    <text x="90" y="259" fill="#0369a1" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">Time: &lt; 5 Minutes</text>
+  </g>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="225" y1="220" x2="255" y2="220" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-recon)"/>
+
+  <!-- Stage 2: Correlation Engine -->
+  <g transform="translate(260, 85)">
+    <rect width="180" height="280" fill="#ffffff" stroke="#7c3aed" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 172 0 Q 180 0 180 8 L 180 34 L 0 34 Z" fill="#f5f3ff"/>
+    <text x="90" y="22" fill="#6d28d9" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">2. AI SYNTHESIS &amp; GRAPH</text>
+
+    <g transform="translate(14, 50)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Normalization:</text>
+      <text x="0" y="16">• De-duplicate IP mappings</text>
+      <text x="0" y="32">• Fingerprint tech stacks</text>
+
+      <text x="0" y="60" font-weight="700" fill="#0f172a">Graph Correlation:</text>
+      <text x="0" y="76">• Link DNS to cloud buckets</text>
+      <text x="0" y="92">• Cluster dev vs. prod assets</text>
+
+      <text x="0" y="120" font-weight="700" fill="#0f172a">Vulnerability Match:</text>
+      <text x="0" y="136">• Map CVEs to exposed ports</text>
+      <text x="0" y="152">• Identify unauth AI APIs</text>
+    </g>
+
+    <rect x="12" y="244" width="156" height="22" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
+    <text x="90" y="259" fill="#6d28d9" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">Time: &lt; 15 Minutes</text>
+  </g>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="440" y1="220" x2="470" y2="220" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-recon)"/>
+
+  <!-- Stage 3: Attack Hypotheses -->
+  <g transform="translate(475, 85)">
+    <rect width="180" height="280" fill="#ffffff" stroke="#ea580c" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 172 0 Q 180 0 180 8 L 180 34 L 0 34 Z" fill="#ffedd5"/>
+    <text x="90" y="22" fill="#c2410c" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">3. ATTACK HYPOTHESES</text>
+
+    <g transform="translate(14, 50)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Probabilistic Modeling:</text>
+      <text x="0" y="16">• Rank attack paths by ROI</text>
+      <text x="0" y="32">• Predict defensive friction</text>
+
+      <text x="0" y="60" font-weight="700" fill="#0f172a">Top Scored Vectors:</text>
+      <text x="0" y="76" fill="#dc2626" font-weight="700">1. Unauth Ollama Prompt RCE</text>
+      <text x="0" y="92" fill="#ea580c" font-weight="700">2. BOLA on api-v2 endpoint</text>
+      <text x="0" y="108" fill="#d97706" font-weight="700">3. Exposed Qdrant Vector DB</text>
+      <text x="0" y="124">4. Leaked Git commit API key</text>
+    </g>
+
+    <rect x="12" y="244" width="156" height="22" fill="#fff7ed" stroke="#fdba74" rx="4"/>
+    <text x="90" y="259" fill="#c2410c" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">Prioritized Plan</text>
+  </g>
+
+  <!-- Arrow 3 to 4 -->
+  <line x1="655" y1="220" x2="685" y2="220" stroke="#0284c7" stroke-width="2" marker-end="url(#arr-recon)"/>
+
+  <!-- Stage 4: Pentester Action Plan -->
+  <g transform="translate(690, 85)">
+    <rect width="165" height="280" fill="#ffffff" stroke="#059669" stroke-width="2" rx="8"/>
+    <path d="M 0 8 Q 0 0 8 0 L 157 0 Q 165 0 165 8 L 165 34 L 0 34 Z" fill="#dcfce7"/>
+    <text x="82.5" y="22" fill="#15803d" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">4. TARGET ENGAGEMENT</text>
+
+    <g transform="translate(14, 50)" font-family="sans-serif" font-size="9.5" fill="#475569">
+      <text x="0" y="0" font-weight="700" fill="#0f172a">Targeted Execution:</text>
+      <text x="0" y="18">• Focused manual deep-dive</text>
+      <text x="0" y="36">• Verified findings in scope</text>
+      <text x="0" y="54">• Zero noisy wasted scans</text>
+
+      <text x="0" y="90" font-weight="700" fill="#0f172a">Executive Report:</text>
+      <text x="0" y="108">• Auto-drafted evidence</text>
+      <text x="0" y="126">• Remediation priorities</text>
+    </g>
+
+    <rect x="12" y="244" width="141" height="22" fill="#f0fdf4" stroke="#86efac" rx="4"/>
+    <text x="82.5" y="259" fill="#15803d" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle">81% TIME REDUCTION</text>
+  </g>
+</svg>
