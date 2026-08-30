@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="100%" height="100%">
+  <!-- Pure White Background -->
+  <rect width="700" height="520" fill="#ffffff"/>
+  <rect width="696" height="516" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="10"/>
+
+  <!-- Title Banner -->
+  <rect x="30" y="20" width="640" height="50" fill="#0f172a" rx="8"/>
+  <text x="350" y="52" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" text-anchor="middle">THE CISO'S AI VENDOR LITMUS TEST</text>
+
+  <!-- Subtitle -->
+  <text x="350" y="90" fill="#64748b" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" text-anchor="middle" font-style="italic">5 questions to separate real AI from rebranded regex</text>
+
+  <!-- Question 1 -->
+  <g transform="translate(30, 110)">
+    <rect width="640" height="72" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" rx="6"/>
+    <circle cx="30" cy="24" r="16" fill="#0f172a"/>
+    <text x="30" y="30" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="middle">1</text>
+    <text x="58" y="28" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">What specific model architecture are you running?</text>
+    <text x="58" y="54" fill="#dc2626" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic">If they say "proprietary algorithmic AI" without specifying LLM, GNN, or Transformer → Snake Oil</text>
+  </g>
+
+  <!-- Question 2 -->
+  <g transform="translate(30, 192)">
+    <rect width="640" height="72" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" rx="6"/>
+    <circle cx="30" cy="24" r="16" fill="#0f172a"/>
+    <text x="30" y="30" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="middle">2</text>
+    <text x="58" y="28" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">Where does inference occur?</text>
+    <text x="58" y="54" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic">On-premise, dedicated customer VPC, or shared SaaS? Evaluate data residency implications.</text>
+  </g>
+
+  <!-- Question 3 -->
+  <g transform="translate(30, 274)">
+    <rect width="640" height="72" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" rx="6"/>
+    <circle cx="30" cy="24" r="16" fill="#0f172a"/>
+    <text x="30" y="30" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="middle">3</text>
+    <text x="58" y="28" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">How does the system handle adversarial prompt injection?</text>
+    <text x="58" y="54" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic">Ask for their benchmark score on OWASP GenAI Top 10. No score = no rigor.</text>
+  </g>
+
+  <!-- Question 4 -->
+  <g transform="translate(30, 356)">
+    <rect width="640" height="72" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" rx="6"/>
+    <circle cx="30" cy="24" r="16" fill="#0f172a"/>
+    <text x="30" y="30" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="middle">4</text>
+    <text x="58" y="28" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">What is the verified False Positive Rate (FPR)?</text>
+    <text x="58" y="54" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic">Demand customer case studies with raw alert volumes, not marketing percentages.</text>
+  </g>
+
+  <!-- Question 5 -->
+  <g transform="translate(30, 438)">
+    <rect width="640" height="72" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" rx="6"/>
+    <circle cx="30" cy="24" r="16" fill="#0f172a"/>
+    <text x="30" y="30" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="middle">5</text>
+    <text x="58" y="28" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">Can the model explain its decision logic?</text>
+    <text x="58" y="54" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic">Does it output an auditable causal chain for courts? Explainability = regulatory survival.</text>
+  </g>
+</svg>
