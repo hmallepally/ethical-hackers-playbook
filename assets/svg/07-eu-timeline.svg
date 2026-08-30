@@ -1,91 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 494" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 296.4" width="100%" height="100%">
   <!-- Pure White Background -->
-  <rect width="900" height="494" fill="#ffffff"/>
-  <rect width="896" height="489" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
+  <rect width="540" height="296.4" fill="#ffffff"/>
+  <rect width="537.6" height="293.4" x="1.2" y="1.2" fill="none" stroke="#e2e8f0" stroke-width="0.9" rx="4.8"/>
 
   <!-- Title Header -->
-  <text x="450" y="36" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">EU AI ACT — MULTI-YEAR ENFORCEMENT TIMELINE</text>
-  <text x="450" y="58" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle">Staggered Milestones from Prohibited AI Bans (2025) to Full Application (2027)</text>
+  <text x="270" y="21.6" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">EU AI ACT — MULTI-YEAR ENFORCEMENT TIMELINE</text>
+  <text x="270" y="34.8" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle">Staggered Milestones from Prohibited AI Bans (2025) to Full Application (2027)</text>
 
   <!-- 4 Timeline Phase Cards -->
 
   <!-- Phase 1: Feb 2, 2025 -->
-  <g transform="translate(40, 85)">
-    <rect width="190" height="260" fill="#ffffff" stroke="#dc2626" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#fee2e2"/>
-    <text x="95" y="22" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">FEB 2, 2025</text>
-    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Prohibited Practices</text>
+  <g transform="translate(24, 51)">
+    <rect width="114" height="156" fill="#ffffff" stroke="#dc2626" stroke-width="0.9" rx="4.8"/>
+    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#fee2e2"/>
+    <text x="57" y="13.2" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">FEB 2, 2025</text>
+    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Prohibited Practices</text>
 
-    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
       <text x="0" y="0">• Subliminal manipulation</text>
-      <text x="0" y="20">• Social scoring systems</text>
-      <text x="0" y="40">• Untargeted face scraping</text>
-      <text x="0" y="60">• Workplace emotion AI</text>
-      <text x="0" y="80">• Predictive policing profiling</text>
-      <text x="0" y="100">• Mandatory AI literacy</text>
+      <text x="0" y="12">• Social scoring systems</text>
+      <text x="0" y="24">• Untargeted face scraping</text>
+      <text x="0" y="36">• Workplace emotion AI</text>
+      <text x="0" y="48">• Predictive policing profiling</text>
+      <text x="0" y="60">• Mandatory AI literacy</text>
     </g>
 
-    <rect x="12" y="225" width="166" height="22" fill="#fef2f2" stroke="#fca5a5" rx="4"/>
-    <text x="95" y="240" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">ACTIVE ENFORCEMENT</text>
+    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#fef2f2" stroke="#fca5a5" rx="2.4"/>
+    <text x="57" y="144" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">ACTIVE ENFORCEMENT</text>
   </g>
 
   <!-- Phase 2: Aug 2, 2025 -->
-  <g transform="translate(245, 85)">
-    <rect width="190" height="260" fill="#ffffff" stroke="#ea580c" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#ffedd5"/>
-    <text x="95" y="22" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2025</text>
-    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">GPAI Model Rules</text>
+  <g transform="translate(147, 51)">
+    <rect width="114" height="156" fill="#ffffff" stroke="#ea580c" stroke-width="0.9" rx="4.8"/>
+    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#ffedd5"/>
+    <text x="57" y="13.2" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2025</text>
+    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">GPAI Model Rules</text>
 
-    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
       <text x="0" y="0">• GPAI tech documentation</text>
-      <text x="0" y="20">• Copyright compliance</text>
-      <text x="0" y="40">• Systemic risk evaluations</text>
-      <text x="0" y="60">• Adversarial model testing</text>
-      <text x="0" y="80">• National authorities active</text>
-      <text x="0" y="100">• Penalty framework live</text>
+      <text x="0" y="12">• Copyright compliance</text>
+      <text x="0" y="24">• Systemic risk evaluations</text>
+      <text x="0" y="36">• Adversarial model testing</text>
+      <text x="0" y="48">• National authorities active</text>
+      <text x="0" y="60">• Penalty framework live</text>
     </g>
 
-    <rect x="12" y="225" width="166" height="22" fill="#fff7ed" stroke="#fdba74" rx="4"/>
-    <text x="95" y="240" fill="#c2410c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">GPAI REGULATION</text>
+    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#fff7ed" stroke="#fdba74" rx="2.4"/>
+    <text x="57" y="144" fill="#c2410c" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">GPAI REGULATION</text>
   </g>
 
   <!-- Phase 3: Aug 2, 2026 -->
-  <g transform="translate(450, 85)">
-    <rect width="190" height="260" fill="#ffffff" stroke="#0284c7" stroke-width="2" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 182 0 Q 190 0 190 8 L 190 34 L 0 34 Z" fill="#e0f2fe"/>
-    <text x="95" y="22" fill="#0369a1" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2026</text>
-    <text x="95" y="54" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">High-Risk AI Systems</text>
+  <g transform="translate(270, 51)">
+    <rect width="114" height="156" fill="#ffffff" stroke="#0284c7" stroke-width="1.2" rx="4.8"/>
+    <path d="M 0 4.8 Q 0 0 4.8 0 L 109.2 0 Q 114 0 114 4.8 L 114 20.4 L 0 20.4 Z" fill="#e0f2fe"/>
+    <text x="57" y="13.2" fill="#0369a1" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2026</text>
+    <text x="57" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">High-Risk AI Systems</text>
 
-    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
       <text x="0" y="0" font-weight="700" fill="#0f172a">• Annex III fully enforced</text>
-      <text x="0" y="20">• Cybersecurity SOAR rules</text>
-      <text x="0" y="40">• Mandatory risk audits</text>
-      <text x="0" y="60">• Human oversight gates</text>
-      <text x="0" y="80">• Transparency disclosures</text>
-      <text x="0" y="100">• Regulatory sandboxes</text>
+      <text x="0" y="12">• Cybersecurity SOAR rules</text>
+      <text x="0" y="24">• Mandatory risk audits</text>
+      <text x="0" y="36">• Human oversight gates</text>
+      <text x="0" y="48">• Transparency disclosures</text>
+      <text x="0" y="60">• Regulatory sandboxes</text>
     </g>
 
-    <rect x="12" y="225" width="166" height="22" fill="#f0f9ff" stroke="#7dd3fc" rx="4"/>
-    <text x="95" y="240" fill="#0284c7" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">HIGH-RISK ENFORCEMENT</text>
+    <rect x="7.2" y="135" width="99.6" height="13.2" fill="#f0f9ff" stroke="#7dd3fc" rx="2.4"/>
+    <text x="57" y="144" fill="#0284c7" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">HIGH-RISK ENFORCEMENT</text>
   </g>
 
   <!-- Phase 4: Aug 2, 2027 -->
-  <g transform="translate(655, 85)">
-    <rect width="205" height="260" fill="#ffffff" stroke="#059669" stroke-width="1.5" rx="8"/>
-    <path d="M 0 8 Q 0 0 8 0 L 197 0 Q 205 0 205 8 L 205 34 L 0 34 Z" fill="#dcfce7"/>
-    <text x="102.5" y="22" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2027</text>
-    <text x="102.5" y="54" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Full Application</text>
+  <g transform="translate(393, 51)">
+    <rect width="123" height="156" fill="#ffffff" stroke="#059669" stroke-width="0.9" rx="4.8"/>
+    <path d="M 0 4.8 Q 0 0 4.8 0 L 118.2 0 Q 123 0 123 4.8 L 123 20.4 L 0 20.4 Z" fill="#dcfce7"/>
+    <text x="61.5" y="13.2" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="800" text-anchor="middle">AUG 2, 2027</text>
+    <text x="61.5" y="32.4" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle">Full Application</text>
 
-    <g transform="translate(14, 75)" font-family="sans-serif" font-size="9.5" fill="#475569">
+    <g transform="translate(8.4, 45)" font-family="sans-serif" font-size="9.5" fill="#475569">
       <text x="0" y="0">• Annex I regulated products</text>
-      <text x="0" y="20">• Medical &amp; aviation AI</text>
-      <text x="0" y="40">• All provisions binding</text>
-      <text x="0" y="60">• €35M / 7% fines active</text>
-      <text x="0" y="80">• Cross-border enforcement</text>
-      <text x="0" y="100">• Global supply chain scope</text>
+      <text x="0" y="12">• Medical &amp; aviation AI</text>
+      <text x="0" y="24">• All provisions binding</text>
+      <text x="0" y="36">• €35M / 7% fines active</text>
+      <text x="0" y="48">• Cross-border enforcement</text>
+      <text x="0" y="60">• Global supply chain scope</text>
     </g>
 
-    <rect x="12" y="225" width="181" height="22" fill="#f0fdf4" stroke="#86efac" rx="4"/>
-    <text x="102.5" y="240" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">100% REGULATORY COVERAGE</text>
+    <rect x="7.2" y="135" width="108.6" height="13.2" fill="#f0fdf4" stroke="#86efac" rx="2.4"/>
+    <text x="61.5" y="144" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">100% REGULATORY COVERAGE</text>
   </g>
 </svg>
