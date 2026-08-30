@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 598" width="100%" height="100%">
   <defs>
     <marker id="arrow-purple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"/>
@@ -9,12 +9,12 @@
   </defs>
 
   <!-- Pure White Background -->
-  <rect width="900" height="460" fill="#ffffff"/>
-  <rect width="896" height="456" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
+  <rect width="900" height="598" fill="#ffffff"/>
+  <rect width="896" height="593" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
 
   <!-- Title Header -->
-  <text x="450" y="40" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" text-anchor="middle">MODEL CONTEXT PROTOCOL (MCP) &amp; AGENT THREAT SURFACE</text>
-  <text x="450" y="62" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">OWASP Agentic Top 10 (ASI01–ASI10): Attack Vectors in Autonomous Tool Calling</text>
+  <text x="450" y="40" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">MODEL CONTEXT PROTOCOL (MCP) &amp; AGENT THREAT SURFACE</text>
+  <text x="450" y="62" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" text-anchor="middle">OWASP Agentic Top 10 (ASI01–ASI10): Attack Vectors in Autonomous Tool Calling</text>
 
   <!-- Left Box: Autonomous Multi-Agent Orchestrator -->
   <g transform="translate(45, 95)">
@@ -24,18 +24,18 @@
 
     <!-- Sub components -->
     <rect x="15" y="55" width="210" height="50" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
-    <text x="25" y="73" fill="#6d28d9" font-family="sans-serif" font-size="10" font-weight="700">Goal Planning &amp; ReAct Loop</text>
-    <text x="25" y="90" fill="#475569" font-family="sans-serif" font-size="9">Reasoning &amp; Sub-task Delegation</text>
+    <text x="25" y="73" fill="#6d28d9" font-family="sans-serif" font-size="14" font-weight="700">Goal Planning &amp; ReAct Loop</text>
+    <text x="25" y="90" fill="#475569" font-family="sans-serif" font-size="14">Reasoning &amp; Sub-task Delegation</text>
 
     <rect x="15" y="118" width="210" height="85" fill="#fef2f2" stroke="#dc2626" rx="4"/>
-    <text x="25" y="136" fill="#b91c1c" font-family="sans-serif" font-size="10" font-weight="800">⚠️ ASI01: Agent Goal Hijack</text>
-    <text x="25" y="153" fill="#334155" font-family="sans-serif" font-size="9">Adversary prompt alters agent intent</text>
-    <text x="25" y="168" fill="#334155" font-family="sans-serif" font-size="9">during multi-turn dialogue loops.</text>
+    <text x="25" y="136" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="800">⚠️ ASI01: Agent Goal Hijack</text>
+    <text x="25" y="153" fill="#334155" font-family="sans-serif" font-size="14">Adversary prompt alters agent intent</text>
+    <text x="25" y="168" fill="#334155" font-family="sans-serif" font-size="14">during multi-turn dialogue loops.</text>
 
     <rect x="15" y="215" width="210" height="95" fill="#faf5ff" stroke="#ddd6fe" rx="4"/>
-    <text x="25" y="233" fill="#6d28d9" font-family="sans-serif" font-size="10" font-weight="700">Context Window &amp; History</text>
-    <text x="25" y="250" fill="#475569" font-family="sans-serif" font-size="9">Tool call definitions, system prompts,</text>
-    <text x="25" y="265" fill="#475569" font-family="sans-serif" font-size="9">and external data payloads.</text>
+    <text x="25" y="233" fill="#6d28d9" font-family="sans-serif" font-size="14" font-weight="700">Context Window &amp; History</text>
+    <text x="25" y="250" fill="#475569" font-family="sans-serif" font-size="14">Tool call definitions, system prompts,</text>
+    <text x="25" y="265" fill="#475569" font-family="sans-serif" font-size="14">and external data payloads.</text>
   </g>
 
   <!-- Connectors -->
@@ -50,19 +50,19 @@
 
     <!-- MCP Components -->
     <rect x="15" y="50" width="210" height="52" fill="#f0f9ff" stroke="#bae6fd" rx="4"/>
-    <text x="25" y="68" fill="#0369a1" font-family="sans-serif" font-size="10" font-weight="700">JSON-RPC / SSE Transport</text>
-    <text x="25" y="86" fill="#475569" font-family="sans-serif" font-size="9">Standardized Client-Server Interface</text>
+    <text x="25" y="68" fill="#0369a1" font-family="sans-serif" font-size="14" font-weight="700">JSON-RPC / SSE Transport</text>
+    <text x="25" y="86" fill="#475569" font-family="sans-serif" font-size="14">Standardized Client-Server Interface</text>
 
     <rect x="15" y="115" width="210" height="85" fill="#fef2f2" stroke="#dc2626" rx="4"/>
-    <text x="25" y="133" fill="#b91c1c" font-family="sans-serif" font-size="10" font-weight="800">⚠️ ASI02: Tool Parameter Inject</text>
-    <text x="25" y="150" fill="#334155" font-family="sans-serif" font-size="9">Malicious arguments injected into</text>
-    <text x="25" y="165" fill="#334155" font-family="sans-serif" font-size="9">deterministic API function calls.</text>
+    <text x="25" y="133" fill="#b91c1c" font-family="sans-serif" font-size="14" font-weight="800">⚠️ ASI02: Tool Parameter Inject</text>
+    <text x="25" y="150" fill="#334155" font-family="sans-serif" font-size="14">Malicious arguments injected into</text>
+    <text x="25" y="165" fill="#334155" font-family="sans-serif" font-size="14">deterministic API function calls.</text>
 
     <rect x="15" y="215" width="210" height="95" fill="#f0f9ff" stroke="#bae6fd" rx="4"/>
-    <text x="25" y="233" fill="#0369a1" font-family="sans-serif" font-size="10" font-weight="700">MCP Security Gates:</text>
-    <text x="25" y="250" fill="#475569" font-family="sans-serif" font-size="9">• Strict Pydantic Schema Validation</text>
-    <text x="25" y="265" fill="#475569" font-family="sans-serif" font-size="9">• Read-only scoping by default</text>
-    <text x="25" y="280" fill="#475569" font-family="sans-serif" font-size="9">• Human-in-the-Loop Confirmation</text>
+    <text x="25" y="233" fill="#0369a1" font-family="sans-serif" font-size="14" font-weight="700">MCP Security Gates:</text>
+    <text x="25" y="250" fill="#475569" font-family="sans-serif" font-size="14">• Strict Pydantic Schema Validation</text>
+    <text x="25" y="265" fill="#475569" font-family="sans-serif" font-size="14">• Read-only scoping by default</text>
+    <text x="25" y="280" fill="#475569" font-family="sans-serif" font-size="14">• Human-in-the-Loop Confirmation</text>
   </g>
 
   <!-- Connectors -->

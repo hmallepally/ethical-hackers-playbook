@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 598" width="100%" height="100%">
   <!-- Pure White Background -->
-  <rect width="900" height="460" fill="#ffffff"/>
-  <rect width="896" height="456" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
+  <rect width="900" height="598" fill="#ffffff"/>
+  <rect width="896" height="593" x="2" y="2" fill="none" stroke="#e2e8f0" stroke-width="1.5" rx="8"/>
 
   <!-- Title Header -->
-  <text x="450" y="42" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" text-anchor="middle">THE ADVERSARIAL THREAT MODELING TRINITY</text>
-  <text x="450" y="64" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">Comparative Matrix: Traditional Network Kill Chain vs. AI System Attack Vectors</text>
+  <text x="450" y="42" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">THE ADVERSARIAL THREAT MODELING TRINITY</text>
+  <text x="450" y="64" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" text-anchor="middle">Comparative Matrix: Traditional Network Kill Chain vs. AI System Attack Vectors</text>
 
   <!-- 3 Framework Columns -->
 
@@ -14,10 +14,10 @@
     <rect width="250" height="335" fill="#ffffff" stroke="#2563eb" stroke-width="2" rx="8"/>
     <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#eff6ff"/>
     <text x="125" y="24" fill="#1d4ed8" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">LOCKHEED MARTIN KILL CHAIN</text>
-    <text x="125" y="55" fill="#2563eb" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Scope: Perimeter &amp; Host Intrusion</text>
+    <text x="125" y="55" fill="#2563eb" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">Scope: Perimeter &amp; Host Intrusion</text>
 
     <!-- Steps -->
-    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#1e293b">
+    <g transform="translate(18, 75)" font-family="sans-serif" font-size="16" fill="#1e293b">
       <circle cx="6" cy="10" r="4" fill="#2563eb"/>
       <text x="18" y="14" font-weight="600">1. Reconnaissance</text>
 
@@ -41,7 +41,7 @@
     </g>
 
     <rect x="15" y="294" width="220" height="26" fill="#eff6ff" stroke="#bfdbfe" rx="4"/>
-    <text x="125" y="311" fill="#1e40af" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Linear Sequential Progression</text>
+    <text x="125" y="311" fill="#1e40af" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">Linear Sequential Progression</text>
   </g>
 
   <!-- 2. MITRE ATT&CK -->
@@ -49,10 +49,10 @@
     <rect width="250" height="335" fill="#ffffff" stroke="#7c3aed" stroke-width="2" rx="8"/>
     <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#f5f3ff"/>
     <text x="125" y="24" fill="#6d28d9" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">MITRE ATT&amp;CK FRAMEWORK</text>
-    <text x="125" y="55" fill="#7c3aed" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Scope: Enterprise TTPs &amp; Behaviors</text>
+    <text x="125" y="55" fill="#7c3aed" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">Scope: Enterprise TTPs &amp; Behaviors</text>
 
     <!-- Steps -->
-    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#1e293b">
+    <g transform="translate(18, 75)" font-family="sans-serif" font-size="16" fill="#1e293b">
       <circle cx="6" cy="10" r="4" fill="#7c3aed"/>
       <text x="18" y="14" font-weight="600">Initial Access (T1190)</text>
 
@@ -76,7 +76,7 @@
     </g>
 
     <rect x="15" y="294" width="220" height="26" fill="#f5f3ff" stroke="#ddd6fe" rx="4"/>
-    <text x="125" y="311" fill="#5b21b6" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Matrix-Based Non-Linear TTPs</text>
+    <text x="125" y="311" fill="#5b21b6" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">Matrix-Based Non-Linear TTPs</text>
   </g>
 
   <!-- 3. MITRE ATLAS -->
@@ -84,10 +84,10 @@
     <rect width="250" height="335" fill="#ffffff" stroke="#db2777" stroke-width="2" rx="8"/>
     <path d="M 0 8 Q 0 0 8 0 L 242 0 Q 250 0 250 8 L 250 38 L 0 38 Z" fill="#fdf2f8"/>
     <text x="125" y="24" fill="#be185d" font-family="sans-serif" font-size="11.5" font-weight="800" text-anchor="middle">MITRE ATLAS (AI SYSTEMS)</text>
-    <text x="125" y="55" fill="#db2777" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Scope: LLMs, Agents &amp; AI Pipelines</text>
+    <text x="125" y="55" fill="#db2777" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">Scope: LLMs, Agents &amp; AI Pipelines</text>
 
     <!-- Steps -->
-    <g transform="translate(18, 75)" font-family="sans-serif" font-size="11" fill="#1e293b">
+    <g transform="translate(18, 75)" font-family="sans-serif" font-size="16" fill="#1e293b">
       <circle cx="6" cy="10" r="4" fill="#db2777"/>
       <text x="18" y="14" font-weight="600">AI Recon (AML.TA0000)</text>
 
@@ -111,6 +111,6 @@
     </g>
 
     <rect x="15" y="294" width="220" height="26" fill="#fdf2f8" stroke="#fbcfe8" rx="4"/>
-    <text x="125" y="311" fill="#9d174d" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">AI-Native Adversary Tactics</text>
+    <text x="125" y="311" fill="#9d174d" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">AI-Native Adversary Tactics</text>
   </g>
 </svg>
